@@ -1,0 +1,2 @@
+# TAKY-ASSETS
+Production asset
