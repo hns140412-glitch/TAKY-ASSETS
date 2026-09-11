@@ -1,0 +1,10 @@
+{
+  "app": "gangbuk7-flow",
+  "version": "2026.09.11-ultradense.1",
+  "channel": "stable",
+  "file": "index.html",
+  "preserve": ["data.json"],
+  "restart_port": 8787,
+  "updated_at": "2026-09-11T12:00:00+09:00",
+  "note": "TAKY CLICK MODE bootstrap. Local installer initializes this version; future manifest increments trigger automatic deployment."
+}
