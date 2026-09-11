@@ -1,0 +1,15 @@
+<style>
+/* TAKY UI CONSOLIDATION v1 — information-first, desktop master */
+#detail .tabs{display:none!important}.pc-tabhost{margin-top:4px}.pc-tabs{display:flex!important;gap:0!important;border-bottom:1px solid #cbdce7;background:#fff!important;padding:0!important;position:sticky;top:0;z-index:4}.pc-tab{flex:1!important;min-width:0!important;border:0!important;border-bottom:3px solid transparent!important;background:#f5f7f9!important;color:#698091!important;padding:8px 4px!important;font-size:8px!important;font-weight:900!important;border-radius:0!important}.pc-tab.on{background:#fff!important;color:#176ca2!important;border-bottom-color:#1878bb!important}.pc-panel{padding:8px 0 0!important}.pc-tabhost>.pc-panel .pcbox{margin:0 0 7px!important}.pc-tabhost+.pcbox.platform{display:none!important}.dbody>.pcbox.platform{margin-top:8px!important}.detail{align-self:start}.detail .dbody{max-height:none!important}.pc-kpis{grid-template-columns:repeat(3,minmax(0,1fr))!important}.pc-kpi{min-height:54px}.pc-kpi b{font-size:13px!important}.pc-kpi span{font-size:7px!important}.pc-empty{padding:12px!important;border:1px dashed #cbdce7;border-radius:6px;color:#8296a4;text-align:center}.docrow{display:grid!important;grid-template-columns:minmax(0,1fr) 64px 58px!important;gap:5px;align-items:center;padding:6px 3px!important;border-bottom:1px solid #e0e9ef;font-size:7px!important}.lookahead-board{margin-top:12px!important}.lookahead-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important}.la-col{min-height:100px!important}.la-col h5{font-size:9px!important}.la-item{font-size:7.5px!important}.source-rule{font-size:7px!important}.platform-grid{grid-template-columns:86px 1fr!important;font-size:7.5px!important}.manual-alert{font-size:7.2px!important}
+/* FLOW cards: keep only decision-level signal prominent */
+.stage-card .critical-note,.card .critical-note{font-size:6.8px!important;line-height:1.35!important;min-height:30px!important;display:flex!important;align-items:center!important}.stage-card .desc,.card .desc{line-height:1.35!important}
+@media(min-width:1200px){.detail{min-width:390px!important}.flow-layout{grid-template-columns:minmax(0,1fr) 390px!important}.pc-tab{font-size:8.5px!important;padding:9px 5px!important}}
+@media(max-width:900px){.lookahead-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.pc-tab{font-size:7px!important;padding:7px 2px!important}.platform-grid{grid-template-columns:72px 1fr!important}}
+</style>
+<script>
+(function(){
+function relabel(){document.querySelectorAll('.pc-tab').forEach(b=>{let m={'관제요약':'관제요약','일정/Dependency':'PLAN/ACTUAL','제출서류':'제출서류','이슈/리스크':'이슈/리스크','추진이력':'추진이력'};if(m[b.textContent.trim()])b.textContent=m[b.textContent.trim()]});}
+function cleanup(){relabel();let host=document.querySelector('.pc-tabhost');if(!host)return;let detail=document.querySelector('#detail .dbody');if(detail){detail.querySelectorAll(':scope > .pcbox.platform').forEach((x,i)=>{if(i>0)x.remove()})}}
+let rd=window.renderDetail;window.renderDetail=function(){let x=rd.apply(this,arguments);setTimeout(cleanup,0);return x};setTimeout(cleanup,600);
+})();
+</script>
