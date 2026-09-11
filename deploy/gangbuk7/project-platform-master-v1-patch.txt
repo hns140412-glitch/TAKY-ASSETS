@@ -1,0 +1,13 @@
+<style>
+/* TAKY PROJECT PLATFORM MASTER v1 — manual-first / project-scalable */
+.platform-tag{display:inline-flex;align-items:center;gap:4px;font-size:6.8px;font-weight:900;padding:3px 6px;border-radius:999px;background:#edf5fa;color:#476c84}.platform-tag.manual{background:#e9f7f1;color:#14745f}.platform-tag.case{background:#fff5dd;color:#8d6517}.platform-tag.hold{background:#f1f2f4;color:#68737c}.pcbox.platform h4{display:flex;justify-content:space-between;align-items:center}.platform-grid{display:grid;grid-template-columns:72px 1fr;gap:4px;font-size:7.4px}.platform-grid b{color:#688296}.platform-grid span{border-bottom:1px dotted #dce7ee;padding:3px 0}.platform-grid b{border-bottom:1px dotted #dce7ee;padding:3px 0}.source-legend{display:flex;gap:4px;flex-wrap:wrap;margin-top:6px}.manual-alert{margin:7px 0 0;padding:6px 7px;border-left:3px solid #0879be;background:#f2f8fc;font-size:7px;line-height:1.45;color:#506f84}
+</style>
+<script>
+(function(){
+const projectModel={project:'강북7구역',standard:'회사 매뉴얼',projectData:'강북7 실제 운영 데이터',caseData:'타 프로젝트 사례',storageIdea:'Dropbox / 외부저장소',storageStatus:'HOLD'};
+function platformBlock(){return '<div class="pcbox platform"><h4><span>프로젝트 관리 기준</span><span class="platform-tag manual">MANUAL FIRST</span></h4><div class="platform-grid"><b>표준 로직</b><span>'+projectModel.standard+' · 확보 후 단계/업무/제출서류/검토승인 체계 확정</span><b>프로젝트</b><span>'+projectModel.project+' · 계획/실제/전망/이력/이슈를 독립 운영</span><b>사례 데이터</b><span>'+projectModel.caseData+' · 소요기간/심의회차/보완/리스크 참고용</span><b>저장소</b><span>'+projectModel.storageIdea+' · 업무로직과 분리 · 현재 '+projectModel.storageStatus+'</span></div><div class="source-legend"><span class="platform-tag manual">회사표준</span><span class="platform-tag">프로젝트확정</span><span class="platform-tag case">사례참고</span><span class="platform-tag hold">확인필요</span></div><div class="manual-alert">회사 매뉴얼 확인 전에는 사례나 일반지식을 회사 표준으로 승격하지 않음. 프로젝트 특례와 사례는 별도 레이어로 유지.</div></div>'}
+function appendPlatform(){let body=document.querySelector('#detail .dbody');if(body&&!body.querySelector('.pcbox.platform'))body.insertAdjacentHTML('beforeend',platformBlock())}
+const old=window.renderDetail;window.renderDetail=function(s){old(s);appendPlatform()};
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>setTimeout(appendPlatform,400));else setTimeout(appendPlatform,400);
+})();
+</script>
