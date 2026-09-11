@@ -1,10 +1,10 @@
 {
   "app": "gangbuk7-flow",
-  "version": "2026.09.11-project-lookahead.1",
+  "version": "2026.09.11-project-ui-consolidation.1",
   "channel": "stable",
-  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt","design-master-v2-patch.txt","design-master-v3-patch.txt","design-master-v4-patch.txt","function-master-v1-patch.txt","project-control-master-v4-patch.txt","project-platform-master-v1-patch.txt","project-control-tabs-v1-patch.txt","project-shared-control-v1-patch.txt","project-lookahead-v1-patch.txt"],
+  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt","design-master-v2-patch.txt","design-master-v3-patch.txt","design-master-v4-patch.txt","function-master-v1-patch.txt","project-control-master-v4-patch.txt","project-platform-master-v1-patch.txt","project-control-tabs-v1-patch.txt","project-shared-control-v1-patch.txt","project-lookahead-v1-patch.txt","project-ui-consolidation-v1-patch.txt"],
   "preserve": ["data.json"],
   "restart_port": 8787,
-  "updated_at": "2026-09-11T19:32:00+09:00",
-  "note": "TAKY Project Look-ahead v1. Mobile evidence passed for deployed control UI. Adds 30/60/90-day look-ahead, dynamic open issue/submission preparation visibility, forecast variance and 04/05/06 merge-delay indicator, and all-project actual history view. Existing PLAN remains untouched and data.json preserved. Desktop 100% design pass remains pending."
+  "updated_at": "2026-09-11T19:44:00+09:00",
+  "note": "TAKY UI Consolidation v1. Removes legacy duplicate detail-tab navigation from view, promotes one Project Control tab set, tightens desktop information hierarchy and detail pane, keeps manual-first/source classification, look-ahead, shared projectControl data, PLAN/ACTUAL/FORECAST and data.json preservation. Desktop 100% visual evidence still required before DESIGN PASS."
 }
