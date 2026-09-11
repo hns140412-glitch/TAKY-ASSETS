@@ -1,10 +1,10 @@
 {
   "app": "gangbuk7-flow",
-  "version": "2026.09.11-project-ui-consolidation.1",
+  "version": "2026.09.11-design-overview-integration.1",
   "channel": "stable",
-  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt","design-master-v2-patch.txt","design-master-v3-patch.txt","design-master-v4-patch.txt","function-master-v1-patch.txt","project-control-master-v4-patch.txt","project-platform-master-v1-patch.txt","project-control-tabs-v1-patch.txt","project-shared-control-v1-patch.txt","project-lookahead-v1-patch.txt","project-ui-consolidation-v1-patch.txt"],
+  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt","design-master-v2-patch.txt","design-master-v3-patch.txt","design-master-v4-patch.txt","function-master-v1-patch.txt","project-control-master-v4-patch.txt","project-platform-master-v1-patch.txt","project-control-tabs-v1-patch.txt","project-shared-control-v1-patch.txt","project-lookahead-v1-patch.txt","project-ui-consolidation-v1-patch.txt","design-overview-integration-v1-patch.txt"],
   "preserve": ["data.json"],
   "restart_port": 8787,
-  "updated_at": "2026-09-11T19:44:00+09:00",
-  "note": "TAKY UI Consolidation v1. Removes legacy duplicate detail-tab navigation from view, promotes one Project Control tab set, tightens desktop information hierarchy and detail pane, keeps manual-first/source classification, look-ahead, shared projectControl data, PLAN/ACTUAL/FORECAST and data.json preservation. Desktop 100% visual evidence still required before DESIGN PASS."
+  "updated_at": "2026-09-11T20:02:00+09:00",
+  "note": "Adds Design Overview integration module based on the existing Gangbuk5 design-overview Excel structure. Defines canonical Excel field map, HTML/PPT output mapping, and stage-based submission Snapshot model. Submission requirements for stages 02-07 remain 확인필요 until company manual/authority confirmation. Existing PLAN and data.json are preserved."
 }
