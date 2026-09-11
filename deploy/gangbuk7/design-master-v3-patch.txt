@@ -1,0 +1,20 @@
+/* TAKY PC DESIGN MASTER v3 — 100% browser baseline */
+@media (min-width:1700px){
+ body{min-width:1700px;background:#edf6fc;font-size:12px}
+ .app{max-width:none;width:100%}
+ .top{height:82px;padding:0 28px;background:linear-gradient(105deg,#e7f5ff 0,#f8fcff 48%,#fff 100%)}
+ .brandmark{width:50px;height:50px}.brand h1{font-size:27px;letter-spacing:-1.15px;margin-bottom:6px}.brand p{font-size:9.5px;letter-spacing:-.1px}
+ .slogan{font-size:17px;margin-right:34px}.search{width:250px;height:36px}.btn{height:36px;padding:0 13px}.nav{height:52px;padding:0 26px}.tab{height:36px;min-width:172px;font-size:12px;padding-top:9px}
+ .main{padding:10px 12px}.upper{grid-template-columns:minmax(0,1fr) 340px;gap:10px}.flow,.detail{height:470px}.flow{padding:9px 8px}
+ .lanes{grid-template-columns:110px 300px 345px 115px 160px 135px 85px 155px;gap:6px;justify-content:space-between}
+ .lane{padding:7px 6px}.ltitle{font-size:14px;margin-bottom:9px}.ltitle small{font-size:9px;margin-top:4px}
+ .card.big{height:350px;padding:12px 6px}.card .num{min-width:26px;height:23px;font-size:10px}.card .ico{width:48px;height:48px;margin-top:36px;margin-bottom:8px;filter:drop-shadow(0 2px 3px #0b65a814)}
+ .card h3{font-size:11px;line-height:1.42}.card p{font-size:8px;line-height:1.5}.agency{font-size:8.5px}.pill{font-size:9px;padding:6px 2px}
+ .permitgrid{gap:7px}.parallel-label{font-size:10px;margin-bottom:8px}.parallelgrid{gap:5px}.parallelgrid .card{height:292px;padding:8px 4px}.parallelgrid .card h3{font-size:9.5px}.parallelgrid .card p{font-size:7.2px}.parallelgrid .card .ico{width:42px;height:42px}
+ .parallel:before{left:52px;right:52px}.parallel:after{left:52px;right:52px;bottom:49px}.merge{left:16px;right:16px;height:35px;font-size:8px}
+ .dispose .card{height:164px}.dispose .ico{width:32px;height:32px}.dispose .card h3{font-size:9.5px}.move .card{height:350px}.demo{padding:4px}.demo .ico{width:44px;height:44px}.demo b{font-size:9px}.demo .agency{font-size:7.5px}
+ .build .card{height:105px}.build .card h3{font-size:9px}.build .card p{font-size:6.8px}
+ .dhead{height:64px;padding:9px 11px}.dnum{width:40px;height:40px}.dhead h2{font-size:14px}.dhead p{font-size:8.5px}.dtabs{height:35px;gap:15px;padding:0 10px}.dtabs span{font-size:8px;padding-top:10px}.dbody{padding:9px 11px}.info{grid-template-columns:68px 1fr;font-size:8.5px;gap:4px}.sectiontitle{font-size:11px}.task{font-size:7.5px}
+ .lower{grid-template-columns:minmax(0,1fr) 340px;gap:10px;margin-top:10px}.leftcol{grid-template-rows:350px 92px;gap:10px}.paneltitle{height:42px;font-size:13px}.gwrap{height:308px}.grow{grid-template-columns:32px 210px 120px 70px 1fr;min-height:21px;font-size:7.5px}.gantt-scale{grid-template-columns:32px 210px 120px 70px 1fr;min-height:32px;font-size:7px}.timeline{height:19px}.gbar{top:4px;height:10px}.files{height:452px;padding:9px 10px}.file{font-size:7.2px}.memo{height:82px}
+ .stats{padding:6px;gap:5px}.stat{padding:7px 8px}.stat svg{width:24px;height:24px}.stat b{font-size:14px}
+}
