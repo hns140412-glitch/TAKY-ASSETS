@@ -1,10 +1,10 @@
 {
   "app": "gangbuk7-flow",
-  "version": "2026.09.11-function-master.1",
+  "version": "2026.09.11-project-control-master.4.1",
   "channel": "stable",
-  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt","design-master-v2-patch.txt","design-master-v3-patch.txt","design-master-v4-patch.txt","function-master-v1-patch.txt"],
+  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt","design-master-v2-patch.txt","design-master-v3-patch.txt","design-master-v4-patch.txt","function-master-v1-patch.txt","project-control-master-v4-patch.txt"],
   "preserve": ["data.json"],
   "restart_port": 8787,
-  "updated_at": "2026-09-11T17:24:00+09:00",
-  "note": "TAKY FUNCTION MASTER v1. Wire stage list, display settings, critical-path highlight, automatic schedule calculation respecting 04/05/06 merge before 07, CSV download, memo persistence; explicitly mark related-file actions unlinked until source paths exist. Existing data API/edit/save preserved."
+  "updated_at": "2026-09-11T17:45:00+09:00",
+  "note": "TAKY PROJECT CONTROL MASTER v4.1. Information-first control layer: Dec-2026 redevelopment decision target, Jan-2027 fire review start baseline, dependency/critical merge visibility, look-ahead risk preparation, submission-document reference classification, and actual-history slots. User-provided submission list is marked reference-only pending Gangbuk7 authority verification. Existing data API/edit/save and function-master controls preserved."
 }
