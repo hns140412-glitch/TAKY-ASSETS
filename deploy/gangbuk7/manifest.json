@@ -1,10 +1,10 @@
 {
   "app": "gangbuk7-flow",
-  "version": "2026.09.11-design-master.1",
+  "version": "2026.09.11-design-master.2",
   "channel": "stable",
-  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt"],
+  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt","design-master-v2-patch.txt"],
   "preserve": ["data.json"],
   "restart_port": 8787,
-  "updated_at": "2026-09-11T13:10:00+09:00",
-  "note": "TAKY DESIGN MASTER deployment. Target-image aligned dense UI, SVG line illustrations, live data.json preserved."
+  "updated_at": "2026-09-11T16:18:00+09:00",
+  "note": "TAKY DESIGN MASTER v2 desktop-first refinement: larger 1600+ browser composition, stronger typography and detail hierarchy, denser workflow cards, expanded detail/Gantt/KPI/file panels, explicit Gantt date scale. Mobile optimization intentionally deferred."
 }
