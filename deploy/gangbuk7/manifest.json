@@ -1,10 +1,10 @@
 {
   "app": "gangbuk7-flow",
-  "version": "2026.09.11-project-control-tabs.1",
+  "version": "2026.09.11-project-shared-control.1",
   "channel": "stable",
-  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt","design-master-v2-patch.txt","design-master-v3-patch.txt","design-master-v4-patch.txt","function-master-v1-patch.txt","project-control-master-v4-patch.txt","project-platform-master-v1-patch.txt","project-control-tabs-v1-patch.txt"],
+  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt","design-master-v2-patch.txt","design-master-v3-patch.txt","design-master-v4-patch.txt","function-master-v1-patch.txt","project-control-master-v4-patch.txt","project-platform-master-v1-patch.txt","project-control-tabs-v1-patch.txt","project-shared-control-v1-patch.txt"],
   "preserve": ["data.json"],
   "restart_port": 8787,
-  "updated_at": "2026-09-11T19:05:00+09:00",
-  "note": "TAKY Project Control tabs v1. Functional detail tabs added for control summary, dependency, submission documents, issues/risks, and actual history. Manual-first source hierarchy preserved; case documents remain reference/verification-needed; existing plan schedule is not overwritten; data.json preserved."
+  "updated_at": "2026-09-11T19:18:00+09:00",
+  "note": "TAKY Project Shared Control v1. Adds project-shared projectControl arrays for actual history, issues/risks and submission documents; separate ACTUAL/FORECAST fields per stage; Gantt overlays; runtime round-trip check when saving extended schema. PLAN is never overwritten automatically. Company manual remains authoritative standard; case references remain non-authoritative. data.json preserved."
 }
