@@ -1,10 +1,10 @@
 {
   "app": "gangbuk7-flow",
-  "version": "2026.09.11-ultradense.1",
+  "version": "2026.09.11-click-probe.1",
   "channel": "stable",
-  "file": "index.html",
+  "file": "CLICK_PROBE_DO_NOT_INSTALL.html",
   "preserve": ["data.json"],
   "restart_port": 8787,
-  "updated_at": "2026-09-11T12:00:00+09:00",
-  "note": "TAKY CLICK MODE bootstrap. Local installer initializes this version; future manifest increments trigger automatic deployment."
+  "updated_at": "2026-09-11T12:30:00+09:00",
+  "note": "TAKY CLICK transport probe. Intentionally missing payload: watcher should detect the new manifest and report CHECK ERROR without replacing the live UI."
 }
