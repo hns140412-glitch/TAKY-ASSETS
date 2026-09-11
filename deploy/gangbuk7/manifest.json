@@ -1,10 +1,10 @@
 {
   "app": "gangbuk7-flow",
-  "version": "2026.09.11-design-master.3",
+  "version": "2026.09.11-design-master.4",
   "channel": "stable",
-  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt","design-master-v2-patch.txt","design-master-v3-patch.txt"],
+  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt","design-master-v2-patch.txt","design-master-v3-patch.txt","design-master-v4-patch.txt"],
   "preserve": ["data.json"],
   "restart_port": 8787,
-  "updated_at": "2026-09-11T16:34:00+09:00",
-  "note": "TAKY PC DESIGN MASTER v3. 100% desktop browser baseline; fit full workflow before detail panel, rebalance card density, narrow detail panel, tighten Gantt/KPI composition. Mobile deferred."
+  "updated_at": "2026-09-11T17:20:00+09:00",
+  "note": "TAKY PC DESIGN MASTER v4. 100% desktop-first professional infographic hierarchy: tighter workflow cards, slimmer detail/files rail, stronger panel hierarchy, technical grid Gantt, restrained shadows and spacing. Mobile deferred."
 }
