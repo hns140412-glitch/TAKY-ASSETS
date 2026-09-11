@@ -1,10 +1,10 @@
 {
   "app": "gangbuk7-flow",
-  "version": "2026.09.11-click-probe.1",
+  "version": "2026.09.11-design-master.1",
   "channel": "stable",
-  "file": "CLICK_PROBE_DO_NOT_INSTALL.html",
+  "parts": ["p1.txt","p2.txt","p3.txt","p4.txt","p5.txt","p6.txt"],
   "preserve": ["data.json"],
   "restart_port": 8787,
-  "updated_at": "2026-09-11T12:30:00+09:00",
-  "note": "TAKY CLICK transport probe. Intentionally missing payload: watcher should detect the new manifest and report CHECK ERROR without replacing the live UI."
+  "updated_at": "2026-09-11T13:10:00+09:00",
+  "note": "TAKY DESIGN MASTER deployment. Target-image aligned dense UI, SVG line illustrations, live data.json preserved."
 }
