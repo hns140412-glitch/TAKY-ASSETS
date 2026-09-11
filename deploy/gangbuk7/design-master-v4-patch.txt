@@ -1,0 +1,13 @@
+<style>
+/* TAKY PC DESIGN MASTER v4 — professional infographic hierarchy */
+@media (min-width:1700px){
+:root{--ink:#12334c;--muted:#69859a;--line:#c9dce9;--paper:#fff;--blue:#0879be}
+body{background:#eaf3f9;color:var(--ink)}
+.top{box-shadow:0 1px 0 #c9deeb,0 5px 18px #4d7d9d10}.nav{box-shadow:0 2px 8px #426f8b0b}
+.main{padding:9px 12px 14px}.upper{grid-template-columns:minmax(0,1fr) 320px}.flow,.detail,.gantt,.files,.stats{border:1px solid #bdd5e5;box-shadow:0 5px 16px #315d7810}
+.flow{height:452px;background:linear-gradient(180deg,#fbfdff,#f4f9fc);overflow:hidden}.detail{height:452px}.lanes{height:100%;grid-template-columns:105px 292px 340px 112px 154px 128px 78px 148px;gap:5px}.lane{border-radius:7px;border-color:#c5dce9;box-shadow:inset 0 1px 0 #ffffffb8}.ltitle{letter-spacing:-.35px}.ltitle small{font-weight:600;color:#7690a2}
+.card{border-color:#c4d9e6;box-shadow:0 2px 7px #315d7810;transition:transform .12s ease,box-shadow .12s ease}.card:hover{transform:translateY(-1px);box-shadow:0 5px 12px #315d7820}.card.big{height:332px}.card .ico{margin-top:26px;stroke-width:1.45}.card h3{letter-spacing:-.35px}.card p{color:#6d8494}.agency{letter-spacing:-.2px}.pill{border-top:1px solid #d7e6ef;background:#ffffff94}.parallelgrid .card{height:276px}.merge{bottom:8px;border-radius:5px;box-shadow:0 2px 5px #3c71921a}.dispose .card{height:151px}.move .card{height:332px}.build .card{height:97px}
+.dhead{background:linear-gradient(110deg,#eef8ff,#fff);border-bottom:1px solid #c8dce9}.dnum{box-shadow:0 3px 9px #0879be24}.dtabs{background:#fbfdff}.dbody{background:#fff}.sectiontitle{border-left:3px solid #0780c5;padding-left:7px}.task{border-bottom:1px dotted #d7e3eb;padding:5px 0}.task:last-child{border-bottom:0}
+.lower{grid-template-columns:minmax(0,1fr) 320px}.leftcol{grid-template-rows:342px 92px}.paneltitle{height:40px;background:linear-gradient(90deg,#f7fbfe,#fff);border-bottom:1px solid #c5d9e6}.gwrap{height:302px;background:#fff}.gantt-scale{min-height:30px;background:#edf6fb}.grow{min-height:20px}.grow:nth-child(even){background:#fbfdff}.grow.head{background:#f3f8fb}.timeline{background-image:linear-gradient(to right,#d9e7f0 1px,transparent 1px);background-size:8.333% 100%}.gbar{border-radius:5px;box-shadow:0 1px 2px #184a681f}.stats{background:#f8fbfd}.stat{border:1px solid #d0e1ec;background:#fff;border-radius:7px}.stat b{letter-spacing:-.35px}.files{height:444px;background:#fff}.files h3{border-bottom:1px solid #d2e1ea;padding-bottom:8px}.file{border-bottom:1px solid #e2ebf1}.memo{border:1px solid #cfdee8;background:#f8fbfd;border-radius:6px}
+}
+</style>
