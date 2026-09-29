@@ -1,0 +1,53 @@
+{
+  "schema": "tky.visual-asset.original.v1",
+  "rule_id": "TKY-ASSET-001",
+  "asset_id": "TAKY-LAF-SNAP-HOME-COAST-20260927-A",
+  "owner": "snap-pop",
+  "role": "APPROVED_PRODUCTION_ENVIRONMENT_BACKGROUND",
+  "title": "Snap & Pop coast, beach, pier scene",
+  "canonical_repository": "hns140412-glitch/TAKY-ASSETS",
+  "canonical_path": "assets/snap-pop/environments/coast/TAKY-LAF-SNAP-HOME-COAST-20260927-A/snap_pop_beach_asset.png",
+  "file": {
+    "format": "image/png",
+    "width": 941,
+    "height": 1672,
+    "bytes": 2287028,
+    "sha256": "f15af01680e2db44ef8af1dff749169f1082ddd15b3760a96da7ff2211eb8259",
+    "github_git_blob_sha": "7c2b83ae566ebc5468d42e0720f9092e096360ae",
+    "immutable": true
+  },
+  "approved_reference": {
+    "visual_id": "TAKY-LAF-UI-HOME-SNAP-HIDE-20260927-A",
+    "sha256": "6cd65b6d82f3306bab6fa93064780c96a3e4849484a8cc8add1926108a6db6f2",
+    "role": "COMPOSITION_REFERENCE_ONLY_NOT_RUNTIME_BACKGROUND"
+  },
+  "provenance": {
+    "source": "ChatGPT Library",
+    "path": "/TAKY/LEARNING_APP_FAMILY_VISUAL_BINDINGS/assets/snap_pop_beach_asset.png",
+    "binding_document": "/TAKY/LEARNING_APP_FAMILY_VISUAL_BINDINGS/snap-pop.visual-binding.json",
+    "registry": "/TAKY/LEARNING_APP_FAMILY_VISUAL_BINDINGS/registry.visual-ids.json",
+    "approval": "USER_APPROVED_2026-09-27_FOR_CURRENT_GENERATED_ASSET",
+    "transform": "NONE_ORIGINAL_PNG_COPY"
+  },
+  "content_contract": {
+    "environment_only": true,
+    "characters": false,
+    "baked_ui_text": false,
+    "whole_island_map": false
+  },
+  "consumer": {
+    "app_repository": "hns140412-glitch/Snap-Pop",
+    "app_source_binding": "OPEN",
+    "derived_pwa_copy": "OPEN",
+    "ui_render_and_interaction_verification": "OPEN",
+    "device_verified": "OPEN"
+  },
+  "status": {
+    "central_asset_blob_uploaded": true,
+    "branch_source_registration": "DRAFT_HOLD",
+    "central_main_promotion": "HOLD",
+    "snap_main_merge": "HOLD",
+    "netlify": "HOLD",
+    "release": "NOT_AUTHORIZED"
+  }
+}
