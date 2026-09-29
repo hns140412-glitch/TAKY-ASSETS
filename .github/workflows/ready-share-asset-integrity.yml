@@ -1,0 +1,19 @@
+name: Ready share asset integrity
+on:
+  push:
+    branches:
+      - assets/ready-share-interim-20260929
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify all 16 actual binaries, SHA-256, and import receipt
+        run: python tools/check_ready_share_assets.py
