@@ -1,7 +1,7 @@
 {
   "schema": "TAKY_APPROVED_LEARNING_ENVIRONMENTS_MANIFEST_V1",
   "date": "2026-09-30",
-  "status": "STAGED_VERIFIED_BINARY_NOT_MAIN_NOT_APP_RUNTIME",
+  "status": "STAGED_BINARY_COMMIT_READBACK_VERIFIED_NOT_MAIN_NOT_APP_RUNTIME",
   "governing_rule": "TKY-ASSET-001",
   "approval_evidence": "ChatGPT Library /TAKY/LEARNING_APP_FAMILY_VISUAL_BINDINGS/registry.visual-ids.json; approval recorded there, not newly inferred from this file",
   "reference_asset": {
@@ -52,11 +52,15 @@
   ],
   "verification": {
     "source_sha256_and_git_blob_id_independently_compared": true,
-    "git_branch_staged_binary_committed": false,
-    "remote_commit_tree_readback": false,
+    "git_branch_staged_binary_committed": true,
+    "remote_commit_tree_readback": true,
     "app_runtime_binding_verified": false,
-    "producer_gate_verified": false
+    "producer_gate_verified": false,
+    "fresh_clone_binary_sha256_readback": true,
+    "independent_original_vs_staged_blob_sha1_match": true
   },
   "current_promoted": false,
-  "release_approved": false
+  "release_approved": false,
+  "stage_branch": "stage/approved-learning-environments-2026-09-30",
+  "stage_binary_commit": "0a54c6004225a1917a5ef6d877acd725644e0f13"
 }
