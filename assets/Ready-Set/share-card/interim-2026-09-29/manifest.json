@@ -1,122 +1,123 @@
 {
-  "schema_version": "TAKY_ASSET_REGISTRY_V01",
-  "asset_id": "READY_SHARE_FOUR_STATE_INTERIM_20260929",
-  "owning_repo": "hns140412-glitch/TAKY-ASSETS",
-  "content_prefix": "assets/Ready-Set/share-card/interim-2026-09-29/",
-  "source_package": "TAKY_READY_SHARE_UI_20260929.zip",
-  "status": "PENDING_BINARY_IMPORT",
-  "scope": "Ready & Set native share card environmental art only",
-  "stages": [
-    "drop-pre",
-    "drop-result",
-    "sail-pre",
-    "sail-result"
-  ],
-  "visual_lock": "User accepted interim four-state direction; do not claim pixel-perfect parity or production release",
-  "layer_rule": "Three environment layers per state: sky/world/foreground; profile Visual ID, chosen companions, copy and results are runtime overlays",
-  "files": [
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/layers/drop-pre/foreground.png",
-      "package_entry": "assets/share-card/layers/drop-pre/foreground.png",
-      "sha256": "61882338ca11d9940381eec06d2cca06a36f5b7ffd0d88770533ebbe4b15c9b2",
-      "size_bytes": 332994
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/layers/drop-pre/sky.png",
-      "package_entry": "assets/share-card/layers/drop-pre/sky.png",
-      "sha256": "a2b2a921aad9c40339845d4f270c89d02cf1e2641fa3aedccc65afb2672cb82f",
-      "size_bytes": 175644
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/layers/drop-pre/world.png",
-      "package_entry": "assets/share-card/layers/drop-pre/world.png",
-      "sha256": "81d6a2c7738bf0e8cf18143283485405551d79f26c2b72e892f65a82e4c74d0b",
-      "size_bytes": 1201383
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/layers/drop-result/foreground.png",
-      "package_entry": "assets/share-card/layers/drop-result/foreground.png",
-      "sha256": "d9e67e16948bfc681532cf1d598b0f4531d7b9bdf49ce432e2a5f8bf1fd0ac63",
-      "size_bytes": 382383
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/layers/drop-result/sky.png",
-      "package_entry": "assets/share-card/layers/drop-result/sky.png",
-      "sha256": "651c9cb4fe88060f5b9e23745568b9f2ed08cae974caa26a1f770f1e98cc2c52",
-      "size_bytes": 175627
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/layers/drop-result/world.png",
-      "package_entry": "assets/share-card/layers/drop-result/world.png",
-      "sha256": "ea46b9e97d3ba59a2ac6918694b1ae297fce3e2cffaabd38729ca98adcaff6d1",
-      "size_bytes": 1266939
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/layers/sail-pre/foreground.png",
-      "package_entry": "assets/share-card/layers/sail-pre/foreground.png",
-      "sha256": "405b45a55a391da74b3c46983f4040a3082a7d08d2659738ae9cddf06b1cddde",
-      "size_bytes": 347646
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/layers/sail-pre/sky.png",
-      "package_entry": "assets/share-card/layers/sail-pre/sky.png",
-      "sha256": "f8486943ee50709a850d69403c8828cdbf2b3fa192f2a6a94a9cfbdf2a27d60a",
-      "size_bytes": 164035
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/layers/sail-pre/world.png",
-      "package_entry": "assets/share-card/layers/sail-pre/world.png",
-      "sha256": "8318366ff3f9499ff93fa551875fee404fc9f0407049781ee54022ef7b110e6e",
-      "size_bytes": 1092437
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/layers/sail-result/foreground.png",
-      "package_entry": "assets/share-card/layers/sail-result/foreground.png",
-      "sha256": "512d2daf655af63fce356fa87bde13d7c2d27a9f91dbf3db7f8ec7a59837215e",
-      "size_bytes": 355985
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/layers/sail-result/sky.png",
-      "package_entry": "assets/share-card/layers/sail-result/sky.png",
-      "sha256": "63f1228c119e8d5ade74cc4ef106b7b8979542f0486cc0427792304b45a7f6ef",
-      "size_bytes": 193302
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/layers/sail-result/world.png",
-      "package_entry": "assets/share-card/layers/sail-result/world.png",
-      "sha256": "020f89ea25fc8fd273f56605a4d9385e86d378360b604357f5307cecb363da29",
-      "size_bytes": 1214337
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/scenes/drop-pre.webp",
-      "package_entry": "assets/share-card/scenes/drop-pre.webp",
-      "sha256": "80f0f35ec7cd2f03180a8d8419fc6510e18caecded60390a0948345586a84939",
-      "size_bytes": 198222
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/scenes/drop-result.webp",
-      "package_entry": "assets/share-card/scenes/drop-result.webp",
-      "sha256": "52722e5a6eac0cd0e44afce01035edfea4e41bc423e352fa31c7f79de76f2ba7",
-      "size_bytes": 217400
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/scenes/sail-pre.webp",
-      "package_entry": "assets/share-card/scenes/sail-pre.webp",
-      "sha256": "e88366d9db4e188148e9a8d0e242c88a3d1bc3f8560cb9f96b9c1ff05a5244df",
-      "size_bytes": 178120
-    },
-    {
-      "path": "assets/Ready-Set/share-card/interim-2026-09-29/scenes/sail-result.webp",
-      "package_entry": "assets/share-card/scenes/sail-result.webp",
-      "sha256": "d85d1e1d5718d2d447cc789a54baffff738a5d14c4f992ee287fee99e77afe34",
-      "size_bytes": 193634
-    }
-  ],
-  "release_policy": {
-    "source_branch_review_only": true,
-    "ready_app_pr": "hns140412-glitch/Ready-Set#119",
-    "main_merge": false,
-    "netlify_deploy": false,
-    "real_iphone_kakaotalk_validation": "OPEN"
-  }
+    "schema_version":  "TAKY_ASSET_REGISTRY_V01",
+    "asset_id":  "READY_SHARE_FOUR_STATE_INTERIM_20260929",
+    "owning_repo":  "hns140412-glitch/TAKY-ASSETS",
+    "content_prefix":  "assets/Ready-Set/share-card/interim-2026-09-29/",
+    "source_package":  "TAKY_READY_SHARE_UI_20260929.zip",
+    "status":  "BINARY_IMPORTED_HASH_VERIFIED",
+    "scope":  "Ready \u0026 Set native share card environmental art only",
+    "stages":  [
+                   "drop-pre",
+                   "drop-result",
+                   "sail-pre",
+                   "sail-result"
+               ],
+    "visual_lock":  "User accepted interim four-state direction; do not claim pixel-perfect parity or production release",
+    "layer_rule":  "Three environment layers per state: sky/world/foreground; profile Visual ID, chosen companions, copy and results are runtime overlays",
+    "files":  [
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/layers/drop-pre/foreground.png",
+                      "package_entry":  "assets/share-card/layers/drop-pre/foreground.png",
+                      "sha256":  "61882338ca11d9940381eec06d2cca06a36f5b7ffd0d88770533ebbe4b15c9b2",
+                      "size_bytes":  332994
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/layers/drop-pre/sky.png",
+                      "package_entry":  "assets/share-card/layers/drop-pre/sky.png",
+                      "sha256":  "a2b2a921aad9c40339845d4f270c89d02cf1e2641fa3aedccc65afb2672cb82f",
+                      "size_bytes":  175644
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/layers/drop-pre/world.png",
+                      "package_entry":  "assets/share-card/layers/drop-pre/world.png",
+                      "sha256":  "81d6a2c7738bf0e8cf18143283485405551d79f26c2b72e892f65a82e4c74d0b",
+                      "size_bytes":  1201383
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/layers/drop-result/foreground.png",
+                      "package_entry":  "assets/share-card/layers/drop-result/foreground.png",
+                      "sha256":  "d9e67e16948bfc681532cf1d598b0f4531d7b9bdf49ce432e2a5f8bf1fd0ac63",
+                      "size_bytes":  382383
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/layers/drop-result/sky.png",
+                      "package_entry":  "assets/share-card/layers/drop-result/sky.png",
+                      "sha256":  "651c9cb4fe88060f5b9e23745568b9f2ed08cae974caa26a1f770f1e98cc2c52",
+                      "size_bytes":  175627
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/layers/drop-result/world.png",
+                      "package_entry":  "assets/share-card/layers/drop-result/world.png",
+                      "sha256":  "ea46b9e97d3ba59a2ac6918694b1ae297fce3e2cffaabd38729ca98adcaff6d1",
+                      "size_bytes":  1266939
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/layers/sail-pre/foreground.png",
+                      "package_entry":  "assets/share-card/layers/sail-pre/foreground.png",
+                      "sha256":  "405b45a55a391da74b3c46983f4040a3082a7d08d2659738ae9cddf06b1cddde",
+                      "size_bytes":  347646
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/layers/sail-pre/sky.png",
+                      "package_entry":  "assets/share-card/layers/sail-pre/sky.png",
+                      "sha256":  "f8486943ee50709a850d69403c8828cdbf2b3fa192f2a6a94a9cfbdf2a27d60a",
+                      "size_bytes":  164035
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/layers/sail-pre/world.png",
+                      "package_entry":  "assets/share-card/layers/sail-pre/world.png",
+                      "sha256":  "8318366ff3f9499ff93fa551875fee404fc9f0407049781ee54022ef7b110e6e",
+                      "size_bytes":  1092437
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/layers/sail-result/foreground.png",
+                      "package_entry":  "assets/share-card/layers/sail-result/foreground.png",
+                      "sha256":  "512d2daf655af63fce356fa87bde13d7c2d27a9f91dbf3db7f8ec7a59837215e",
+                      "size_bytes":  355985
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/layers/sail-result/sky.png",
+                      "package_entry":  "assets/share-card/layers/sail-result/sky.png",
+                      "sha256":  "63f1228c119e8d5ade74cc4ef106b7b8979542f0486cc0427792304b45a7f6ef",
+                      "size_bytes":  193302
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/layers/sail-result/world.png",
+                      "package_entry":  "assets/share-card/layers/sail-result/world.png",
+                      "sha256":  "020f89ea25fc8fd273f56605a4d9385e86d378360b604357f5307cecb363da29",
+                      "size_bytes":  1214337
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/scenes/drop-pre.webp",
+                      "package_entry":  "assets/share-card/scenes/drop-pre.webp",
+                      "sha256":  "80f0f35ec7cd2f03180a8d8419fc6510e18caecded60390a0948345586a84939",
+                      "size_bytes":  198222
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/scenes/drop-result.webp",
+                      "package_entry":  "assets/share-card/scenes/drop-result.webp",
+                      "sha256":  "52722e5a6eac0cd0e44afce01035edfea4e41bc423e352fa31c7f79de76f2ba7",
+                      "size_bytes":  217400
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/scenes/sail-pre.webp",
+                      "package_entry":  "assets/share-card/scenes/sail-pre.webp",
+                      "sha256":  "e88366d9db4e188148e9a8d0e242c88a3d1bc3f8560cb9f96b9c1ff05a5244df",
+                      "size_bytes":  178120
+                  },
+                  {
+                      "path":  "assets/Ready-Set/share-card/interim-2026-09-29/scenes/sail-result.webp",
+                      "package_entry":  "assets/share-card/scenes/sail-result.webp",
+                      "sha256":  "d85d1e1d5718d2d447cc789a54baffff738a5d14c4f992ee287fee99e77afe34",
+                      "size_bytes":  193634
+                  }
+              ],
+    "release_policy":  {
+                           "source_branch_review_only":  true,
+                           "ready_app_pr":  "hns140412-glitch/Ready-Set#119",
+                           "main_merge":  false,
+                           "netlify_deploy":  false,
+                           "real_iphone_kakaotalk_validation":  "OPEN"
+                       },
+    "imported_at_utc":  "2026-09-30T02:47:04.4048532Z"
 }
