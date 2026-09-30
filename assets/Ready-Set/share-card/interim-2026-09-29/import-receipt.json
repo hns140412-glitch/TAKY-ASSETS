@@ -1,0 +1,8 @@
+{
+    "asset_id":  "READY_SHARE_FOUR_STATE_INTERIM_20260929",
+    "scope":  "REVIEW_BRANCH_ONLY",
+    "file_count":  16,
+    "hash_algorithm":  "SHA-256",
+    "verification":  "all_manifest_entries_matched",
+    "production_approved":  false
+}
