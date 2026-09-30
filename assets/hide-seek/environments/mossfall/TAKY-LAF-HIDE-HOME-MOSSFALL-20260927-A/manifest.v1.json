@@ -1,0 +1,48 @@
+{
+  "schema": "tky.visual-asset.original.v1",
+  "rule_id": "TKY-ASSET-001",
+  "asset_id": "TAKY-LAF-HIDE-HOME-MOSSFALL-20260927-A",
+  "owner": "hide-seek",
+  "role": "APPROVED_PRODUCTION_ENVIRONMENT_BACKGROUND",
+  "title": "Hide & Seek moss garden, forest and stepped waterfall scene",
+  "canonical_repository": "hns140412-glitch/TAKY-ASSETS",
+  "canonical_path": "assets/hide-seek/environments/mossfall/TAKY-LAF-HIDE-HOME-MOSSFALL-20260927-A/hide_seek_forest_asset.png",
+  "file": {
+    "format": "image/png",
+    "width": 941,
+    "height": 1672,
+    "bytes": 3137077,
+    "sha256": "1f7aa500a177e25820649cc485355297cbc4fb89909df1f7f43e4ff7ddbe2419",
+    "github_git_blob_sha": "68458a8ff21b5ccd55529b604d478a2b6cb07264",
+    "immutable": true
+  },
+  "provenance": {
+    "source": "ChatGPT Library",
+    "library_path": "/TAKY/LEARNING_APP_FAMILY_VISUAL_BINDINGS/assets/hide_seek_forest_asset.png",
+    "approval": "USER_APPROVED_2026-09-27_FOR_CURRENT_GENERATED_ASSET",
+    "transform": "NONE_ORIGINAL_PNG_COPY"
+  },
+  "content_contract": {
+    "environment_only": true,
+    "characters": false,
+    "baked_ui_text": false,
+    "whole_island_map": false
+  },
+  "consumer": {
+    "app_repository": "hns140412-glitch/Hide-Seek",
+    "pr": 22,
+    "app_path": "assets/visual/hide_seek_forest_asset.png",
+    "app_git_blob_sha": "68458a8ff21b5ccd55529b604d478a2b6cb07264",
+    "runtime_binding": "DRAFT_BOUND",
+    "living_fx": "V5_SAFE_OVERLAYS_CODED",
+    "device_verified": "OPEN"
+  },
+  "status": {
+    "central_asset_blob_uploaded": true,
+    "branch_source_registration": "DRAFT_HOLD",
+    "central_main_promotion": "HOLD",
+    "hide_main_merge": "HOLD",
+    "netlify": "HOLD",
+    "release": "NOT_AUTHORIZED"
+  }
+}
