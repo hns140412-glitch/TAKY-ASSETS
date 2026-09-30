@@ -7,22 +7,54 @@
     "character_type",
     "display_name",
     "visual_id",
-    "source_sha",
     "canonical_status",
-    "master_asset_ref",
-    "asset_version",
+    "pipeline_state",
+    "source_authority",
     "approval_status"
   ],
   "properties": {
     "character_id": {"type": "string", "minLength": 1},
     "character_type": {"enum": ["USER", "CORE", "REGULAR", "SPECIAL"]},
-    "display_name": {"type": "string"},
-    "visual_id": {"type": ["string", "null"]},
-    "source_sha": {"type": "string"},
-    "canonical_status": {"enum": ["APPROVED", "HOLD", "BLOCKED"]},
-    "master_asset_ref": {"type": "string"},
-    "asset_version": {"type": "string"},
-    "approval_status": {"type": "string"},
+    "display_name": {"type": "string", "minLength": 1},
+    "display_name_ko": {"type": ["string", "null"]},
+    "visual_id": {"type": ["integer", "string", "null"]},
+    "canonical_status": {"enum": ["APPROVED_SOURCE", "APPROVED", "HOLD", "BLOCKED"]},
+    "pipeline_state": {"type": "string", "minLength": 1},
+    "approval_status": {"type": "string", "minLength": 1},
+    "source_authority": {
+      "type": "object",
+      "required": ["scope", "group_id", "group_sha256", "panel_position"],
+      "properties": {
+        "scope": {"enum": ["GROUP_IMAGE", "INDIVIDUAL_MASTER", "USER_CHARACTER_MASTER"]},
+        "group_id": {"type": ["string", "null"]},
+        "group_sha256": {"type": ["string", "null"]},
+        "panel_position": {"type": ["integer", "null"]},
+        "library_manifest_path": {"type": ["string", "null"]},
+        "library_source_package_path": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "independent_cutout": {
+      "type": "object",
+      "properties": {
+        "asset_ref": {"type": ["string", "null"]},
+        "sha256": {"type": ["string", "null"]},
+        "status": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "mask_spec": {
+      "type": "object",
+      "properties": {
+        "asset_ref": {"type": ["string", "null"]},
+        "sha256": {"type": ["string", "null"]},
+        "bound_cutout_sha256": {"type": ["string", "null"]},
+        "status": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "master_asset_ref": {"type": ["string", "null"]},
+    "asset_version": {"type": ["string", "null"]},
     "derivative_refs": {"type": "object"},
     "allowed_roles": {"type": "array", "items": {"type": "string"}},
     "allowed_behavior_states": {"type": "array", "items": {"type": "string"}},
@@ -32,6 +64,7 @@
     "face_states": {"type": "object"},
     "action_parts": {"type": "object"},
     "forbidden_variations": {"type": "array", "items": {"type": "string"}},
+    "qa_flags": {"type": "array", "items": {"type": "string"}},
     "notes": {"type": "string"}
   },
   "additionalProperties": true
