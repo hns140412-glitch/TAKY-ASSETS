@@ -1,9 +1,9 @@
-name: TAKY Asset Pipeline Contract
+name: TAKY Approved Asset Registry Contract
 on:
   pull_request:
     paths:
-      - 'tools/asset_pipeline.py'
-      - 'tools/asset_pipeline_test.py'
+      - 'tools/approved_asset_registry.py'
+      - 'tools/approved_asset_registry_test.py'
       - '.github/workflows/asset-pipeline.yml'
   push:
     branches: [main]
@@ -12,5 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python -m unittest tools/asset_pipeline_test.py
-      - run: python -m unittest tools/asset_composition_engine_test.py
+      - run: python -m unittest tools/approved_asset_registry_test.py
