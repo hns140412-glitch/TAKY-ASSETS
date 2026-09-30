@@ -7,22 +7,33 @@ Authority: TAKY `OS/CHARACTER_ASSET_BEHAVIOR_PIPELINE.md` + `MASTER/DESIGN_UI_AS
 
 `ASSET GENERATION ENGINE != CHARACTER BEHAVIOR ENGINE`.
 
-This repository owns approved reusable visual binaries, derivatives, metadata and registries.
+This repository owns approved reusable visual binaries, release-safe derivatives, metadata and shared registries.
 It does not decide live character behavior, relationship progression, dialogue, rewards or scene logic.
 
-## 2. Sub-pipelines
+## 2. Scope / ownership
 
-- USER CHARACTER: photo intake derivative -> candidate -> Character Master -> derivatives -> registry
-- GUIDE / COMPANION: approved Visual ID source -> derivative set -> registry
-- BADGE: approved motif/source -> reusable layer set -> badge registry
-- BACKGROUND: approved scene master -> layered/optimized derivatives -> registry
-- UI ILLUSTRATION: approved UI visual -> reusable layers/variants -> registry
+This shared engine owns:
+- USER CHARACTER pipeline: private photo intake -> candidate -> Character Master -> release-safe derivatives -> registry.
+- BADGE asset pipeline.
+- BACKGROUND asset pipeline.
+- UI ILLUSTRATION asset pipeline.
+- Shared registration of approved outputs from specialist pipelines.
 
-All outputs must preserve approved source identity and provenance.## 3. Canonical flow
+GUIDE / COMPANION production is NOT owned here.
+GUIDE Visual ID source locking, cutout/mask generation, per-ID art production and artistic QA stay with the existing GUIDE specialist pipeline.
+TAKY-ASSETS stores only stable source pointers and later approved output pointers/SHA/version received from that owner.
 
+`SHARED REGISTRY != SPECIALIST PRODUCTION STATE MACHINE`.
+
+## 3. Canonical shared flow
+
+For pipelines owned here:
 `SOURCE -> PRESERVE/CHANGE/NEW DECISION -> GENERATE/EDIT -> VALIDATE -> SHA256 -> VERSION -> REGISTRY -> CONSUMER POINTER -> BUILD COPY`.
 
-Production completion requires actual binary presence when a binary is expected.
+For external specialist pipelines:
+`SPECIALIST OWNER -> APPROVED OUTPUT -> SHA/VERSION -> SHARED REGISTRY POINTER -> CONSUMER`.
+
+Production completion requires actual approved binaries when binaries are expected.
 Manifest-only entries do not count as finished assets.
 
 ## 4. Runtime rule
@@ -38,12 +49,12 @@ Only consented release-safe derivatives may be registered for app use.
 
 ## 6. Directory roles
 
-- `characters/users/` — approved user Character Masters and derivatives
-- `characters/guides/` — approved Guide/companion assets and derivatives
+- `characters/users/` — approved user Character Masters and release-safe derivatives
+- `characters/guides/` — approved GUIDE runtime outputs received from GUIDE specialist owner; no duplicate production state machine
 - `badges/` — badge masters, motifs and reusable layers
 - `backgrounds/` — background masters and layered derivatives
 - `ui/` — UI illustration assets
-- `registry/` — canonical asset/character/badge registries
+- `registry/` — shared approved asset/character/badge pointers
 - `schemas/` — registry schemas and validation contracts
 
 END

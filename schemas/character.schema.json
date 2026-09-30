@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "TAKY Character Registry Entry",
+  "title": "TAKY Shared Character Registry Entry",
   "type": "object",
   "required": [
     "character_id",
@@ -8,9 +8,9 @@
     "display_name",
     "visual_id",
     "canonical_status",
-    "pipeline_state",
+    "production_owner",
     "source_authority",
-    "approval_status"
+    "runtime_asset"
   ],
   "properties": {
     "character_id": {"type": "string", "minLength": 1},
@@ -18,9 +18,9 @@
     "display_name": {"type": "string", "minLength": 1},
     "display_name_ko": {"type": ["string", "null"]},
     "visual_id": {"type": ["integer", "string", "null"]},
-    "canonical_status": {"enum": ["APPROVED_SOURCE", "APPROVED", "HOLD", "BLOCKED"]},
-    "pipeline_state": {"type": "string", "minLength": 1},
-    "approval_status": {"type": "string", "minLength": 1},
+    "canonical_status": {"enum": ["SOURCE_POINTER", "APPROVED_RUNTIME", "HOLD", "BLOCKED"]},
+    "production_owner": {"type": "string", "minLength": 1},
+    "production_owner_ref": {"type": ["string", "null"]},
     "source_authority": {
       "type": "object",
       "required": ["scope", "group_id", "group_sha256", "panel_position"],
@@ -34,38 +34,19 @@
       },
       "additionalProperties": true
     },
-    "independent_cutout": {
+    "runtime_asset": {
       "type": "object",
+      "required": ["asset_ref", "sha256", "asset_version", "status"],
       "properties": {
         "asset_ref": {"type": ["string", "null"]},
         "sha256": {"type": ["string", "null"]},
-        "status": {"type": "string"}
+        "asset_version": {"type": ["string", "null"]},
+        "status": {"enum": ["NOT_REGISTERED", "APPROVED"]}
       },
-      "additionalProperties": true
+      "additionalProperties": false
     },
-    "mask_spec": {
-      "type": "object",
-      "properties": {
-        "asset_ref": {"type": ["string", "null"]},
-        "sha256": {"type": ["string", "null"]},
-        "bound_cutout_sha256": {"type": ["string", "null"]},
-        "status": {"type": "string"}
-      },
-      "additionalProperties": true
-    },
-    "master_asset_ref": {"type": ["string", "null"]},
-    "asset_version": {"type": ["string", "null"]},
-    "derivative_refs": {"type": "object"},
-    "allowed_roles": {"type": "array", "items": {"type": "string"}},
-    "allowed_behavior_states": {"type": "array", "items": {"type": "string"}},
-    "allowed_ambient_actions": {"type": "array", "items": {"type": "string"}},
-    "allowed_equipment": {"type": "array", "items": {"type": "string"}},
-    "equipment_anchors": {"type": "object"},
-    "face_states": {"type": "object"},
-    "action_parts": {"type": "object"},
-    "forbidden_variations": {"type": "array", "items": {"type": "string"}},
-    "qa_flags": {"type": "array", "items": {"type": "string"}},
+    "qa_notes": {"type": "array", "items": {"type": "string"}},
     "notes": {"type": "string"}
   },
-  "additionalProperties": true
+  "additionalProperties": false
 }

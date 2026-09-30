@@ -1,10 +1,10 @@
 {
-    "registry_version":  "2026-09-30.2",
-    "status":  "SOURCE_AUTHORITY_REGISTERED_CUTOUTS_OPEN",
-    "authority":  "TAKY GUIDE Visual ID 07-24 approval manifest V2",
+    "registry_version":  "2026-09-30.3",
+    "status":  "SHARED_POINTER_REGISTRY",
+    "authority":  "TAKY shared character registry; GUIDE production state owned externally",
     "core6":  {
-                  "status":  "PRESERVE_EXISTING_LOCK_6_OF_6",
-                  "note":  "Core6 not recreated or overwritten by this registry import."
+                  "status":  "POINTER_ONLY_PRESERVE_EXISTING",
+                  "note":  "Core6 production/source state is owned by the existing GUIDE specialist pipeline and is not duplicated here."
               },
     "characters":  [
                        {
@@ -13,9 +13,9 @@
                            "display_name":  "SOLA",
                            "display_name_ko":  "솔라",
                            "visual_id":  7,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-07-12",
@@ -24,31 +24,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-08",
@@ -56,9 +40,9 @@
                            "display_name":  "BELO",
                            "display_name_ko":  "벨로",
                            "visual_id":  8,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-07-12",
@@ -67,31 +51,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-09",
@@ -99,9 +67,9 @@
                            "display_name":  "MOCA",
                            "display_name_ko":  "모카",
                            "visual_id":  9,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-07-12",
@@ -110,31 +78,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-10",
@@ -142,9 +94,9 @@
                            "display_name":  "NIA",
                            "display_name_ko":  "니아",
                            "visual_id":  10,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-07-12",
@@ -153,31 +105,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-11",
@@ -185,9 +121,9 @@
                            "display_name":  "KIRO",
                            "display_name_ko":  "키로",
                            "visual_id":  11,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-07-12",
@@ -196,31 +132,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-12",
@@ -228,9 +148,9 @@
                            "display_name":  "PEACH",
                            "display_name_ko":  "피치",
                            "visual_id":  12,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-07-12",
@@ -239,31 +159,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-13",
@@ -271,9 +175,9 @@
                            "display_name":  "MINT",
                            "display_name_ko":  "민트",
                            "visual_id":  13,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-13-18",
@@ -282,31 +186,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-14",
@@ -314,9 +202,9 @@
                            "display_name":  "TOTO",
                            "display_name_ko":  "토토",
                            "visual_id":  14,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-13-18",
@@ -325,31 +213,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-15",
@@ -357,9 +229,9 @@
                            "display_name":  "RUNE",
                            "display_name_ko":  "루네",
                            "visual_id":  15,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-13-18",
@@ -368,31 +240,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-16",
@@ -400,9 +256,9 @@
                            "display_name":  "POPO",
                            "display_name_ko":  "포포",
                            "visual_id":  16,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-13-18",
@@ -411,31 +267,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-17",
@@ -443,9 +283,9 @@
                            "display_name":  "MARU",
                            "display_name_ko":  "마루",
                            "visual_id":  17,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-13-18",
@@ -454,31 +294,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-18",
@@ -486,9 +310,9 @@
                            "display_name":  "BORI",
                            "display_name_ko":  "보리",
                            "visual_id":  18,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-13-18",
@@ -497,31 +321,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-19",
@@ -529,9 +337,9 @@
                            "display_name":  "RIN",
                            "display_name_ko":  "린",
                            "visual_id":  19,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-19-24",
@@ -540,31 +348,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-20",
@@ -572,9 +364,9 @@
                            "display_name":  "LUMI",
                            "display_name_ko":  "루미",
                            "visual_id":  20,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-19-24",
@@ -583,31 +375,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-21",
@@ -615,9 +391,9 @@
                            "display_name":  "TESS",
                            "display_name_ko":  "테스",
                            "visual_id":  21,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-19-24",
@@ -626,31 +402,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
-
-                                               },
-                           "qa_flags":  [
-                                            "INVALID_DERIVATIVE_LEFT_HAND_MISSING_DO_NOT_PROMOTE"
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
+                                            "Known invalid derivative: left hand missing. Specialist pipeline owns correction."
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-22",
@@ -658,9 +418,9 @@
                            "display_name":  "SEL",
                            "display_name_ko":  "셀",
                            "visual_id":  22,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-19-24",
@@ -669,31 +429,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
 
-                                               },
-                           "qa_flags":  [
-
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-23",
@@ -701,9 +445,9 @@
                            "display_name":  "ZEKE",
                            "display_name_ko":  "제이크",
                            "visual_id":  23,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-19-24",
@@ -712,31 +456,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
-
-                                               },
-                           "qa_flags":  [
-                                            "INVALID_DERIVATIVE_LOWER_BODY_LEG_DISTORTION_DO_NOT_PROMOTE"
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
+                                            "Known invalid derivative: lower-body/leg distortion. Specialist pipeline owns correction."
+                                        ]
                        },
                        {
                            "character_id":  "GUIDE-24",
@@ -744,9 +472,9 @@
                            "display_name":  "VIVI",
                            "display_name_ko":  "비비",
                            "visual_id":  24,
-                           "canonical_status":  "APPROVED_SOURCE",
-                           "pipeline_state":  "AWAITING_INDEPENDENT_CUTOUT_SHA",
-                           "approval_status":  "GROUP_SOURCE_APPROVED_INDIVIDUAL_CUTOUT_NOT_YET_APPROVED",
+                           "canonical_status":  "SOURCE_POINTER",
+                           "production_owner":  "GUIDE_VISUAL_ID_SPECIALIST_PIPELINE",
+                           "production_owner_ref":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/GUIDE_07_24_CLI_PIPELINE_HANDOFF_LATEST.md",
                            "source_authority":  {
                                                     "scope":  "GROUP_IMAGE",
                                                     "group_id":  "GUIDE-19-24",
@@ -755,31 +483,15 @@
                                                     "library_manifest_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SHA_MANIFEST_V2.json",
                                                     "library_source_package_path":  "/TAKY/HANDOFF/GUIDE_VISUAL_ID_07_24/TAKY_GUIDE_VISUAL_ID_07-24_APPROVAL_SOURCE_PACKAGE.zip"
                                                 },
-                           "independent_cutout":  {
-                                                      "asset_ref":  null,
-                                                      "sha256":  null,
-                                                      "status":  "NOT_YET_CREATED_OR_APPROVED"
-                                                  },
-                           "mask_spec":  {
-                                             "asset_ref":  null,
-                                             "sha256":  null,
-                                             "bound_cutout_sha256":  null,
-                                             "status":  "BLOCKED_UNTIL_CUTOUT_SHA_LOCK"
-                                         },
-                           "master_asset_ref":  null,
-                           "asset_version":  null,
-                           "derivative_refs":  {
-
-                                               },
-                           "qa_flags":  [
-                                            "LEGACY_SOURCE_PIXEL_LABEL_NOVA_MUST_NOT_PROPAGATE"
-                                        ],
-                           "forbidden_variations":  [
-                                                        "NAME_ONLY_GENERATION",
-                                                        "UNAPPROVED_IDENTITY_RECREATION",
-                                                        "GROUP_SHA_AS_INDIVIDUAL_SHA",
-                                                        "QA_PREVIEW_AS_FINAL_ART"
-                                                    ]
+                           "runtime_asset":  {
+                                                 "asset_ref":  null,
+                                                 "sha256":  null,
+                                                 "asset_version":  null,
+                                                 "status":  "NOT_REGISTERED"
+                                             },
+                           "qa_notes":  [
+                                            "Legacy source pixels may show NOVA; shared canonical name remains VIVI."
+                                        ]
                        }
                    ]
 }
