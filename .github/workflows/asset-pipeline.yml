@@ -1,0 +1,15 @@
+name: TAKY Asset Pipeline Contract
+on:
+  pull_request:
+    paths:
+      - 'tools/asset_pipeline.py'
+      - 'tools/asset_pipeline_test.py'
+      - '.github/workflows/asset-pipeline.yml'
+  push:
+    branches: [main]
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m unittest tools/asset_pipeline_test.py
