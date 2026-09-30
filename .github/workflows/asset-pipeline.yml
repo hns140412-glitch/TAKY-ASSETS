@@ -14,3 +14,4 @@ jobs:
       - uses: actions/checkout@v4
       - run: python -m unittest tools/approved_asset_registry_test.py
       - run: python -m unittest tools/approved_asset_export_test.py
+      - run: python -m unittest tools/specialist_handoff_accept_test.py
