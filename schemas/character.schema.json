@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TAKY Character Registry Entry",
+  "type": "object",
+  "required": [
+    "character_id",
+    "character_type",
+    "display_name",
+    "visual_id",
+    "source_sha",
+    "canonical_status",
+    "master_asset_ref",
+    "asset_version",
+    "approval_status"
+  ],
+  "properties": {
+    "character_id": {"type": "string", "minLength": 1},
+    "character_type": {"enum": ["USER", "CORE", "REGULAR", "SPECIAL"]},
+    "display_name": {"type": "string"},
+    "visual_id": {"type": ["string", "null"]},
+    "source_sha": {"type": "string"},
+    "canonical_status": {"enum": ["APPROVED", "HOLD", "BLOCKED"]},
+    "master_asset_ref": {"type": "string"},
+    "asset_version": {"type": "string"},
+    "approval_status": {"type": "string"},
+    "derivative_refs": {"type": "object"},
+    "allowed_roles": {"type": "array", "items": {"type": "string"}},
+    "allowed_behavior_states": {"type": "array", "items": {"type": "string"}},
+    "allowed_ambient_actions": {"type": "array", "items": {"type": "string"}},
+    "allowed_equipment": {"type": "array", "items": {"type": "string"}},
+    "equipment_anchors": {"type": "object"},
+    "face_states": {"type": "object"},
+    "action_parts": {"type": "object"},
+    "forbidden_variations": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": true
+}
