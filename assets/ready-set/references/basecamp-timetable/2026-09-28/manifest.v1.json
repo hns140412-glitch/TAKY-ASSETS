@@ -1,0 +1,51 @@
+{
+  "schema": "tky.asset.reference.v1",
+  "rule_id": "TKY-ASSET-001",
+  "app": "Ready & Set",
+  "scope": "WEEK_DAY_BASECAMP_COMPOSITION_REFERENCE",
+  "status": "CENTRAL_REFERENCE_COPY_DRAFT_BRANCH_NOT_RUNTIME_MASTER",
+  "source_authority": "User-accepted 2026-09-28 Ready Week/Day composition references recovered by exact SHA-256",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "assets": [
+    {
+      "key": "week",
+      "path": "assets/ready-set/references/basecamp-timetable/2026-09-28/weekly_approved_composition.png",
+      "source_name": "판타지_캠프_주간_시간표_탐험.png",
+      "sha256": "cd479f1c72a58171a5873a6c06e442fecfb7d63819a741f6984650968308db42",
+      "git_blob_sha": "b5dd7c19319d1ec7f875439df05d8c8f8e3cf8c1",
+      "role": "LATEST_ACCEPTED_COMPOSITION_REFERENCE_NOT_RUNTIME_MASTER"
+    },
+    {
+      "key": "day",
+      "path": "assets/ready-set/references/basecamp-timetable/2026-09-28/daily_approved_composition.png",
+      "source_name": "판타지_탐험가의_일일_시간표.png",
+      "sha256": "733aa39ea2972fffa04362994cb1218c60e34eb1558a86816a2388dd4f6e9ad5",
+      "git_blob_sha": "b0c61fec3bbc95097932b124f9254048b5717b76",
+      "role": "LATEST_ACCEPTED_COMPOSITION_REFERENCE_NOT_RUNTIME_MASTER"
+    },
+    {
+      "key": "prep",
+      "path": "assets/ready-set/references/basecamp-timetable/2026-09-28/preparation_approved_mood_reference.png",
+      "source_name": "설레는_출발_전_탐험_계획.png",
+      "sha256": "03f3229200a20a38b875b68b0feb1e8f06bb71cd593178311595aaab6162bd53",
+      "git_blob_sha": "60f7a9d358bc589ff8395b153374dd94b708a103",
+      "role": "USER_APPROVED_BASECAMP_TABLE_MOOD_REFERENCE_NOT_CLEAN_PLATE"
+    }
+  ],
+  "runtime_constraints": {
+    "direct_background_binding": "FORBIDDEN",
+    "reason": "References contain baked characters, labels, dates and sample planner facts. They are design authority only.",
+    "clean_plate_required": true,
+    "dynamic_child_visual_required": true,
+    "dynamic_companion_visual_required": true,
+    "live_planner_dom_required": true
+  },
+  "release": {
+    "ready_main_merge": "HOLD",
+    "netlify": "HOLD",
+    "human_visual_approval": "OPEN"
+  }
+}
