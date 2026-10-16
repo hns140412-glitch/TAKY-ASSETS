@@ -30,7 +30,30 @@
       "approval": "APPROVAL_RECORDED_IN_UPSTREAM_MANIFEST",
       "runtime_binding": "UNVERIFIED",
       "canonical_migration": "PENDING",
-      "static_review_20261017": "NO_EXACT_APPROVED_SOURCE_SHA_FOUND_IN_CURRENT_APP_ASSETS__TRANSFORMED_RUNTIME_ASSET_OR_MISSING_BINDING_UNRESOLVED"
+      "static_review_20261017": "NO_EXACT_APPROVED_SOURCE_SHA_FOUND_IN_CURRENT_APP_ASSETS__TRANSFORMED_RUNTIME_ASSET_OR_MISSING_BINDING_UNRESOLVED",
+      "runtime_observation_20261017": {
+        "scope": "ACTUAL_HEADLESS_GOOGLE_CHROME_390x844_LOCAL_STATIC_APP",
+        "result": "CURRENT_VISIBLE_SCENE_DIFFERS_FROM_APPROVED_SOURCE",
+        "current_scene_runtime_path": "assets/world/golden_world_scene.jpg",
+        "current_scene_sha256": "9249b45e2537cac47f96bb28cd2c00c83362a1be614003038cccc38fb5ad3126",
+        "current_scene_dimensions": [
+          1260,
+          590
+        ],
+        "approved_original_sha256": "f15af01680e2db44ef8af1dff749169f1082ddd15b3760a96da7ff2211eb8259",
+        "approved_original_dimensions": [
+          941,
+          1672
+        ],
+        "browser_natural_image_loaded": true,
+        "browser_http_missing_count": 0,
+        "browser_page_errors": 0,
+        "no_same_sha_asset_in_current_snap_assets": true,
+        "approved_image_shown_in_current_scene": false,
+        "actual_ui_1to1_approval": "NOT_VERIFIED",
+        "not_a_justified_auto_replacement": true,
+        "image_or_app_runtime_files_modified": false
+      }
     }
   ]
 }
