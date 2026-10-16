@@ -1,0 +1,36 @@
+{
+  "schema": "TAKY_KNOWN_APPROVAL_PROVENANCE_V1",
+  "status": "SOURCE_EVIDENCE_RECORDED_NOT_CANONICAL_MIGRATION",
+  "authority_rule": "Only source approval evidence can promote; no copy is a new original",
+  "assets": [
+    {
+      "visual_id": "TAKY-LAF-HIDE-HOME-MOSSFALL-20260927-A",
+      "app": "Hide & Seek",
+      "sha256": "1f7aa500a177e25820649cc485355297cbc4fb89909df1f7f43e4ff7ddbe2419",
+      "source_path": "D:\\Git PWA\\TAKY\\.local\\BETA_BRANCH_REVIEW_20261003\\assets-environments\\approved\\learning-app-family\\hide-seek\\home\\TAKY-LAF-HIDE-HOME-MOSSFALL-20260927-A\\source\\hide_seek_forest_asset.png",
+      "source_manifest": "D:\\Git PWA\\TAKY\\.local\\BETA_BRANCH_REVIEW_20261003\\assets-environments\\approved\\learning-app-family\\manifest-2026-09-30.json",
+      "approval": "APPROVAL_RECORDED_IN_UPSTREAM_MANIFEST",
+      "runtime_binding": "STATIC_HOME_DOM_CSS_SHA_VERIFIED_NOT_BROWSER",
+      "canonical_migration": "PENDING",
+      "runtime_path": "D:\\Git PWA\\Hide & Seek\\assets\\world\\hide_seek_forest_asset.png",
+      "runtime_sha256": "1f7aa500a177e25820649cc485355297cbc4fb89909df1f7f43e4ff7ddbe2419",
+      "runtime_evidence": [
+        "index.html loads styles.css and app.js",
+        "app.js builds hs-home DOM",
+        "styles.css maps hs-home background to runtime_path",
+        "approved source hash equals current runtime image SHA256"
+      ]
+    },
+    {
+      "visual_id": "TAKY-LAF-SNAP-HOME-COAST-20260927-A",
+      "app": "Snap & Pop",
+      "sha256": "f15af01680e2db44ef8af1dff749169f1082ddd15b3760a96da7ff2211eb8259",
+      "source_path": "D:\\Git PWA\\TAKY\\.local\\BETA_BRANCH_REVIEW_20261003\\assets-environments\\approved\\learning-app-family\\snap-pop\\home\\TAKY-LAF-SNAP-HOME-COAST-20260927-A\\source\\snap_pop_beach_asset.png",
+      "source_manifest": "D:\\Git PWA\\TAKY\\.local\\BETA_BRANCH_REVIEW_20261003\\assets-environments\\approved\\learning-app-family\\manifest-2026-09-30.json",
+      "approval": "APPROVAL_RECORDED_IN_UPSTREAM_MANIFEST",
+      "runtime_binding": "UNVERIFIED",
+      "canonical_migration": "PENDING",
+      "static_review_20261017": "NO_EXACT_APPROVED_SOURCE_SHA_FOUND_IN_CURRENT_APP_ASSETS__TRANSFORMED_RUNTIME_ASSET_OR_MISSING_BINDING_UNRESOLVED"
+    }
+  ]
+}
