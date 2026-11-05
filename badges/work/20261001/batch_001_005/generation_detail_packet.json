@@ -1,0 +1,41 @@
+{
+  "version": "TAKY_BADGE_001_005_GENERATION_DETAIL_PACKET_V2_2",
+  "global": "Create ONE standalone TAKY exploration badge master candidate per request. High-density pastel hand-drawn illustration, circular badge composition, cute but not childish, collectible/premium, transparent outside the circular composition. No title, no caption, no letters, no numbers, no UI text. Do not bake in acquisition state, lock, stars, tier, profile character, Crew logo, national flag, or unrelated character. The subject must communicate the exact core detail and wit at 64px. Background supports meaning only; no generic sunrise/mountain/cloud/island scenery unless explicitly required. Keep future BASE/BG/SUBJECT/FX separation feasible.",
+  "items": [
+    {
+      "slot": "001",
+      "display": "이불 왕국 탈출기",
+      "core": "침대와 평화 협상에 성공한 작은 탐험가.",
+      "motif": "이불에서 삐져나온 작은 태양",
+      "scene": "Do not draw a literal castle, architecture, horizon, sunrise, ladder, flag, or any character. Show a clearly recognizable SOFT QUILTED BLANKET with subtle stitched seams and plush folds filling most of the circular badge. Its folds make one small gate-like opening. A NON-ANTHROPOMORPHIC FULL round SUN with NO face has already squeezed through the opening and is clearly in front/outside the blanket gap, moving diagonally toward the lower-right foreground. Give the sun 4 short simple soft rays around its upper half so it unmistakably reads as a sun at 64px, while still avoiding any sunrise/horizon composition. Add a short trailing warm glow from the blanket gap and a slightly pushed-aside blanket fold to show escape motion. The visual joke: the blanket itself is the kingdom, and the sun has escaped from it. 64px must read: quilted blanket gate behind + full sun with rays escaping in front."
+    },
+    {
+      "slot": "002",
+      "display": "알람보다 한발 먼저",
+      "core": "첫 출발 신호를 스스로 보냈다.",
+      "motif": "닭 대신 나팔 부는 종달새",
+      "scene": "No sunrise, no sun disk, no horizon, no mountains, no clouds, no landscape scene. Use only a minimal soft cool-to-warm dawn atmosphere inside the circular badge. Center one small skylark clearly blowing a small trumpet as the self-made start signal. Bird + trumpet must occupy most of the badge and remain legible at 64px. Add only 2-3 short sound arcs from the trumpet. No rooster and no alarm clock. The visual joke is that the rooster is off duty and the skylark has taken the shift; communicate this only through the unexpected bird-with-trumpet action, not extra characters."
+    },
+    {
+      "slot": "003",
+      "display": "한 입 먹고 한 칸",
+      "core": "아주 작은 아침 작전부터 가볍게 시작.",
+      "motif": "토스트와 연필이 교차한 작은 깃발",
+      "scene": "A small piece of toast and a pencil cross to form a tiny flag-like symbol, directly above ONE simple task square beginning below it. The visual rhythm is one bite -> one square. Do not turn this into a breakfast spread or checklist. Warm pastel texture, subtle toast steam, tiny non-star glint only if needed."
+    },
+    {
+      "slot": "004",
+      "display": "밥심으로 2라운드",
+      "core": "잠깐 쉬고 다시 시작한 둘째 출발.",
+      "motif": "주먹밥과 돌아오는 부메랑",
+      "scene": "A warm rice ball anchors the scene while a boomerang curves around and visibly returns toward a pencil/work direction, compressing meal -> return -> second start into one circular motion. The joke is that meal energy comes back like a boomerang for round two. No sunrise/cloud landscape and no character eating. Rice ball + returning boomerang must both read at 64px."
+    },
+    {
+      "slot": "005",
+      "display": "신발끈은 이미 출발했다",
+      "core": "준비를 마치고 내 속도로 출발.",
+      "motif": "묶인 신발끈과 작은 나침반",
+      "scene": "Do not make the whole shoe or landscape the focus. Show a beautifully tied shoelace knot large and clear, angled as if it is already leaning forward to leave; attach a small precise compass to the lace as a secondary cue. The joke is that the shoelace is already ready before the 마음 catches up, expressed only through pose/direction, not a face. Pastel moss and sky tones. Avoid duplicate compass decoration in the base."
+    }
+  ]
+}

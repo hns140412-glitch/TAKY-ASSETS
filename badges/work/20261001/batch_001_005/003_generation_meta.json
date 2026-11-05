@@ -1,0 +1,13 @@
+{
+  "slot": "003",
+  "display_item": "한 입 먹고 한 칸",
+  "core_detail": "아주 작은 아침 작전부터 가볍게 시작.",
+  "motif": "토스트와 연필이 교차한 작은 깃발",
+  "model": "gpt-image-1",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "sha256": "91ff4f5823ab9cd14b9d50ff7452fe299a8c18279fe1d0bbc23360bc8fe955d3",
+  "prompt": "Create ONE standalone TAKY exploration badge master candidate per request. High-density pastel hand-drawn illustration, circular badge composition, cute but not childish, collectible/premium, transparent outside the circular composition. No title, no caption, no letters, no numbers, no UI text. Do not bake in acquisition state, lock, stars, tier, profile character, Crew logo, national flag, or unrelated character. The subject must communicate the exact core detail and wit at 64px. Background supports meaning only; no generic sunrise/mountain/cloud/island scenery unless explicitly required. Keep future BASE/BG/SUBJECT/FX separation feasible.\nBADGE 003 current display item: 한 입 먹고 한 칸\nCore detail: 아주 작은 아침 작전부터 가볍게 시작.\nAuthority motif: 토스트와 연필이 교차한 작은 깃발\nExact production scene: A small piece of toast and a pencil cross to form a tiny flag-like symbol, directly above ONE simple task square beginning below it. The visual rhythm is one bite -> one square. Do not turn this into a breakfast spread or checklist. Warm pastel texture, subtle toast steam, tiny non-star glint only if needed.\nGenerate only ONE standalone badge artwork, centered. No contact sheet, no multiple options.\nDo not render the Korean display item or any text.",
+  "status": "CANDIDATE_NOT_APPROVED"
+}

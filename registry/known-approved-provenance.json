@@ -1,0 +1,87 @@
+{
+  "schema": "TAKY_KNOWN_APPROVAL_PROVENANCE_V1",
+  "status": "SOURCE_EVIDENCE_RECORDED_NOT_CANONICAL_MIGRATION",
+  "authority_rule": "Only source approval evidence can promote; no copy is a new original",
+  "assets": [
+    {
+      "visual_id": "TAKY-LAF-HIDE-HOME-MOSSFALL-20260927-A",
+      "app": "Hide & Seek",
+      "sha256": "1f7aa500a177e25820649cc485355297cbc4fb89909df1f7f43e4ff7ddbe2419",
+      "source_path": "D:\\Git PWA\\TAKY\\.local\\BETA_BRANCH_REVIEW_20261003\\assets-environments\\approved\\learning-app-family\\hide-seek\\home\\TAKY-LAF-HIDE-HOME-MOSSFALL-20260927-A\\source\\hide_seek_forest_asset.png",
+      "source_manifest": "D:\\Git PWA\\TAKY\\.local\\BETA_BRANCH_REVIEW_20261003\\assets-environments\\approved\\learning-app-family\\manifest-2026-09-30.json",
+      "approval": "APPROVAL_RECORDED_IN_UPSTREAM_MANIFEST",
+      "runtime_binding": "STATIC_HOME_DOM_CSS_SHA_VERIFIED_NOT_BROWSER",
+      "canonical_migration": "PENDING",
+      "runtime_path": "D:\\Git PWA\\Hide & Seek\\assets\\world\\hide_seek_forest_asset.png",
+      "runtime_sha256": "1f7aa500a177e25820649cc485355297cbc4fb89909df1f7f43e4ff7ddbe2419",
+      "runtime_evidence": [
+        "index.html loads styles.css and app.js",
+        "app.js builds hs-home DOM",
+        "styles.css maps hs-home background to runtime_path",
+        "approved source hash equals current runtime image SHA256"
+      ]
+    },
+    {
+      "visual_id": "TAKY-LAF-SNAP-HOME-COAST-20260927-A",
+      "app": "Snap & Pop",
+      "sha256": "f15af01680e2db44ef8af1dff749169f1082ddd15b3760a96da7ff2211eb8259",
+      "source_path": "D:\\Git PWA\\TAKY\\.local\\BETA_BRANCH_REVIEW_20261003\\assets-environments\\approved\\learning-app-family\\snap-pop\\home\\TAKY-LAF-SNAP-HOME-COAST-20260927-A\\source\\snap_pop_beach_asset.png",
+      "source_manifest": "D:\\Git PWA\\TAKY\\.local\\BETA_BRANCH_REVIEW_20261003\\assets-environments\\approved\\learning-app-family\\manifest-2026-09-30.json",
+      "approval": "APPROVAL_RECORDED_IN_UPSTREAM_MANIFEST",
+      "runtime_binding": "LOCAL_REAL_CHROME_APPROVED_BACKGROUND_SHA_AND_INTERACTION_VERIFIED_NOT_FULL_UI",
+      "canonical_migration": "PENDING",
+      "static_review_20261017": "NO_EXACT_APPROVED_SOURCE_SHA_FOUND_IN_CURRENT_APP_ASSETS__TRANSFORMED_RUNTIME_ASSET_OR_MISSING_BINDING_UNRESOLVED",
+      "runtime_observation_20261017": {
+        "scope": "ACTUAL_HEADLESS_GOOGLE_CHROME_390x844_LOCAL_STATIC_APP",
+        "result": "CURRENT_VISIBLE_SCENE_DIFFERS_FROM_APPROVED_SOURCE",
+        "current_scene_runtime_path": "assets/world/golden_world_scene.jpg",
+        "current_scene_sha256": "9249b45e2537cac47f96bb28cd2c00c83362a1be614003038cccc38fb5ad3126",
+        "current_scene_dimensions": [
+          1260,
+          590
+        ],
+        "approved_original_sha256": "f15af01680e2db44ef8af1dff749169f1082ddd15b3760a96da7ff2211eb8259",
+        "approved_original_dimensions": [
+          941,
+          1672
+        ],
+        "browser_natural_image_loaded": true,
+        "browser_http_missing_count": 0,
+        "browser_page_errors": 0,
+        "no_same_sha_asset_in_current_snap_assets": true,
+        "approved_image_shown_in_current_scene": false,
+        "actual_ui_1to1_approval": "NOT_VERIFIED",
+        "not_a_justified_auto_replacement": true,
+        "image_or_app_runtime_files_modified": false
+      },
+      "runtime_path": "D:\\Git PWA\\Snap & Pop\\assets\\world\\snap_pop_beach_asset.png",
+      "runtime_sha256": "f15af01680e2db44ef8af1dff749169f1082ddd15b3760a96da7ff2211eb8259",
+      "runtime_observation_20261023": {
+        "scope": "ACTUAL_CHROME_LOCAL_SNAP_390x844_AND_1280x800",
+        "result": "APPROVED_ORIGINAL_IMAGE_NOW_BOUND_AND_RENDERED_WITH_UNOBSTRUCTED_COAST",
+        "source_visual_id": "TAKY-LAF-SNAP-HOME-COAST-20260927-A",
+        "source_manifest_sha256": "a518db31b9dd949bc064db6112216fb89237a8d4a1339a54711a0e55a1fb145b",
+        "source_approved_image_sha256": "f15af01680e2db44ef8af1dff749169f1082ddd15b3760a96da7ff2211eb8259",
+        "runtime_file_sha256": "f15af01680e2db44ef8af1dff749169f1082ddd15b3760a96da7ff2211eb8259",
+        "current_scene_runtime_path": "assets/world/snap_pop_beach_asset.png",
+        "background_dimensions": [
+          941,
+          1672
+        ],
+        "browser_source_loaded": true,
+        "landmarks_visible": 7,
+        "nav_buttons": 5,
+        "landmark_to_exploration": "PASS",
+        "browser_errors": 0,
+        "http_missing": 0,
+        "external_requests": 0,
+        "screenshot_file": "D:\\Git PWA\\TAKY_AI_WORKBENCH\\01_BACKLOG_AND_ADOPTION\\80_EVIDENCE\\SNAP_APPROVED_COAST_LOCAL_BROWSER_20261023.png",
+        "screenshot_sha256": "2b0ebff4a28ff5848abab1d734afb3f79e6c29a670b392fe20a115011e9cdb5a",
+        "snap_local_head": "152c4514e485034137c215d484b931d919f68ab0",
+        "independent_model_review": false,
+        "entire_ui_pixel_parity": "NOT_VERIFIED",
+        "release_deployment": "NOT_APPROVED"
+      }
+    }
+  ]
+}

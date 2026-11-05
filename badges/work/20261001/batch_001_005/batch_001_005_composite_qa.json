@@ -1,0 +1,143 @@
+{
+  "batch": "001-005",
+  "status": "5/5_COMPOSITE_QA_PASS_LAYERING_PENDING",
+  "items": [
+    {
+      "slot": "001",
+      "status": "COMPOSITE_QA_PASS_LAYERING_PENDING",
+      "accepted_revision": "R4",
+      "sha256": "9c64e603bea2d75a8a15985a513f35bef371a37ebe683e33f556ebcadb8f4182",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "semantic": "PASS",
+      "wit": "PASS",
+      "beauty": "PASS",
+      "64px": "PASS",
+      "text_or_tier_bakein": "NONE",
+      "note": "이불 주름 문+탈출한 태양, 64px 판독 PASS; R1~R3은 회귀/모호성으로 보존"
+    },
+    {
+      "slot": "002",
+      "status": "COMPOSITE_QA_PASS_LAYERING_PENDING",
+      "accepted_revision": "R2",
+      "sha256": "00f598488830dc30d59eed129e86cc0a4c457998d871c8e640024416b3488f1b",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "semantic": "PASS",
+      "wit": "PASS",
+      "beauty": "PASS",
+      "64px": "PASS",
+      "text_or_tier_bakein": "NONE",
+      "note": "종달새+나팔 판독 PASS; R1 일출풍경 회귀 제거"
+    },
+    {
+      "slot": "003",
+      "status": "COMPOSITE_QA_PASS_LAYERING_PENDING",
+      "accepted_revision": "R1",
+      "sha256": "91ff4f5823ab9cd14b9d50ff7452fe299a8c18279fe1d0bbc23360bc8fe955d3",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "semantic": "PASS",
+      "wit": "PASS",
+      "beauty": "PASS",
+      "64px": "PASS",
+      "text_or_tier_bakein": "NONE",
+      "note": "토스트+연필 교차+한 칸 판독 PASS"
+    },
+    {
+      "slot": "004",
+      "status": "COMPOSITE_QA_PASS_LAYERING_PENDING",
+      "accepted_revision": "R1",
+      "sha256": "5ee6653c277960af6e212a475bc4e3b15eb15706bae5825993e28816cc89a8cb",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "semantic": "PASS",
+      "wit": "PASS",
+      "beauty": "PASS",
+      "64px": "PASS",
+      "text_or_tier_bakein": "NONE",
+      "note": "주먹밥+귀환 부메랑+연필 방향 판독 PASS"
+    },
+    {
+      "slot": "005",
+      "status": "COMPOSITE_QA_PASS_LAYERING_PENDING",
+      "accepted_revision": "R1",
+      "sha256": "333d8685546785c55282b349cce4c9ee4095b3aed391bf0cfa90ffde77cda7e2",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "semantic": "PASS",
+      "wit": "PASS",
+      "beauty": "PASS",
+      "64px": "PASS",
+      "text_or_tier_bakein": "NONE",
+      "note": "큰 신발끈 매듭+소형 나침반 판독 PASS"
+    }
+  ],
+  "next": "BASE/BG/SUBJECT/FX layer extraction/validation; do not regenerate passed composites",
+  "failed_attempts_preserved": [
+    "001_candidate_r1_FAIL_sunrise_ambiguity.png",
+    "001_candidate_r2_FAIL_personified_sun.png",
+    "001_candidate_r3_FAIL_64px_sun_ambiguous.png",
+    "002_candidate_r1_FAIL_sunrise_background.png"
+  ]
+}

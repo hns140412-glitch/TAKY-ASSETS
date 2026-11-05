@@ -1,0 +1,13 @@
+{
+  "slot": "001",
+  "display_item": "이불 왕국 탈출기",
+  "core_detail": "침대와 평화 협상에 성공한 작은 탐험가.",
+  "motif": "이불에서 삐져나온 작은 태양",
+  "model": "gpt-image-1",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "sha256": "93070eba587d667ee0b5ed24bdc6c7e0c74f4107acdb2739d9a00aa56ae81933",
+  "prompt": "Create ONE standalone TAKY exploration badge master candidate per request. High-density pastel hand-drawn illustration, circular badge composition, cute but not childish, collectible/premium, transparent outside the circular composition. No title, no caption, no letters, no numbers, no UI text. Do not bake in acquisition state, lock, stars, tier, profile character, Crew logo, national flag, or unrelated character. The subject must communicate the exact core detail and wit at 64px. Background supports meaning only; no generic sunrise/mountain/cloud/island scenery unless explicitly required. Keep future BASE/BG/SUBJECT/FX separation feasible.\nBADGE 001 current display item: 이불 왕국 탈출기\nCore detail: 침대와 평화 협상에 성공한 작은 탐험가.\nAuthority motif: 이불에서 삐져나온 작은 태양\nExact production scene: Do not draw a literal castle, architecture, horizon, sunrise, or character. The blanket itself fills most of the circular badge and its soft folds form a small gate-like opening. A FULL small round sun has already squeezed through that opening toward the viewer and sits clearly OUTSIDE/in front of the blanket gap, slightly off-center with a short trailing glow from the gap behind it. Do NOT show a half-sun rising from a horizon. The visual action must read as ESCAPING FROM THE BLANKET, not sunrise. The joke is that the blanket is the kingdom. Focus at 64px: blanket opening behind + full escaping sun in front.\nGenerate only ONE standalone badge artwork, centered. No contact sheet, no multiple options.\nDo not render the Korean display item or any text.",
+  "status": "CANDIDATE_NOT_APPROVED"
+}

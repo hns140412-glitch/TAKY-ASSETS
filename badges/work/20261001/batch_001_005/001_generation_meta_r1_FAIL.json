@@ -1,0 +1,13 @@
+{
+  "slot": "001",
+  "display_item": "이불 왕국 탈출기",
+  "core_detail": "침대와 평화 협상에 성공한 작은 탐험가.",
+  "motif": "이불에서 삐져나온 작은 태양",
+  "model": "gpt-image-1",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "sha256": "18c6b0915b015a37f061bdde6b5a1a565778d388d4b85bb0a46c680c739807a7",
+  "prompt": "Create ONE standalone TAKY exploration badge master candidate per request. High-density pastel hand-drawn illustration, circular badge composition, cute but not childish, collectible/premium, transparent outside the circular composition. No title, no caption, no letters, no numbers, no UI text. Do not bake in acquisition state, lock, stars, tier, profile character, Crew logo, national flag, or unrelated character. The subject must communicate the exact core detail and wit at 64px. Background supports meaning only; no generic sunrise/mountain/cloud/island scenery unless explicitly required. Keep future BASE/BG/SUBJECT/FX separation feasible.\nBADGE 001 current display item: 이불 왕국 탈출기\nCore detail: 침대와 평화 협상에 성공한 작은 탐험가.\nAuthority motif: 이불에서 삐져나온 작은 태양\nExact production scene: Do not draw a literal castle or a character. Fold the blanket itself so its soft folds suggest a tiny kingdom gate; a small sun is gently squeezing out through the blanket opening, as if escaping first. The joke is that the 'kingdom' is only the blanket. Focus on blanket opening + escaping sun. Soft apricot and mint, plush fabric texture, gentle dawn edge light. No flags, architecture, mountains or sunrise landscape.\nGenerate only ONE standalone badge artwork, centered. No contact sheet, no multiple options.\nDo not render the Korean display item or any text.",
+  "status": "CANDIDATE_NOT_APPROVED"
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TAKY Shared Character Registry Entry",
+  "type": "object",
+  "required": [
+    "character_id",
+    "character_type",
+    "display_name",
+    "visual_id",
+    "canonical_status",
+    "production_owner",
+    "source_authority",
+    "runtime_asset"
+  ],
+  "properties": {
+    "character_id": {"type": "string", "minLength": 1},
+    "character_type": {"enum": ["USER", "CORE", "REGULAR", "SPECIAL"]},
+    "display_name": {"type": "string", "minLength": 1},
+    "display_name_ko": {"type": ["string", "null"]},
+    "visual_id": {"type": ["integer", "string", "null"]},
+    "canonical_status": {"enum": ["SOURCE_POINTER", "APPROVED_RUNTIME", "HOLD", "BLOCKED"]},
+    "production_owner": {"type": "string", "minLength": 1},
+    "production_owner_ref": {"type": ["string", "null"]},
+    "source_authority": {
+      "type": "object",
+      "required": ["scope", "group_id", "group_sha256", "panel_position"],
+      "properties": {
+        "scope": {"enum": ["GROUP_IMAGE", "INDIVIDUAL_MASTER", "USER_CHARACTER_MASTER"]},
+        "group_id": {"type": ["string", "null"]},
+        "group_sha256": {"type": ["string", "null"]},
+        "panel_position": {"type": ["integer", "null"]},
+        "library_manifest_path": {"type": ["string", "null"]},
+        "library_source_package_path": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "runtime_asset": {
+      "type": "object",
+      "required": ["asset_ref", "sha256", "asset_version", "status"],
+      "properties": {
+        "asset_ref": {"type": ["string", "null"]},
+        "sha256": {"type": ["string", "null"]},
+        "asset_version": {"type": ["string", "null"]},
+        "status": {"enum": ["NOT_REGISTERED", "APPROVED"]}
+      },
+      "additionalProperties": false
+    },
+    "qa_notes": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}
