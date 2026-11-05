@@ -1,0 +1,1 @@
+HARD LOCK: API/CLI image generation is forbidden until the user explicitly says: API/CLI 생성 승인. A generic ㄱ/진행/계속 is NOT authorization.

@@ -1,0 +1,326 @@
+{
+  "queue_version": "2026-10-01.1",
+  "purpose": "BADGE_ASSET_REWORK_ONLY",
+  "source_sha256": "f4f79fa274b01cbb020ffaccf901d1c2c8fd8143e68ebc42a95b34a5ec719068",
+  "source_path": "D:\\Git PWA\\TAKY\\BADGE\\badge-60-story-20-history-working.json",
+  "qa_authority": "BADGE_60_VISUAL_QA_REPORT.md / 2026-09-27",
+  "count": 31,
+  "holds": {
+    "canonical_change": true,
+    "runtime_integration": true,
+    "registry_activation": true,
+    "deployment": true
+  },
+  "items": [
+    {
+      "slot": 1,
+      "source_draft_id": "BDG-DRAFT-001",
+      "stable_name": "해뜰락말락",
+      "visual_id": "BADGE_VISUAL_DRAFT_001",
+      "motif": "이불에서 삐져나온 작은 태양",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 4,
+      "source_draft_id": "BDG-DRAFT-004",
+      "stable_name": "밥먹고 한번더",
+      "visual_id": "BADGE_VISUAL_DRAFT_004",
+      "motif": "주먹밥과 돌아오는 부메랑",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 5,
+      "source_draft_id": "BDG-DRAFT-005",
+      "stable_name": "출발 준비 끝",
+      "visual_id": "BADGE_VISUAL_DRAFT_005",
+      "motif": "묶인 신발끈과 작은 나침반",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 6,
+      "source_draft_id": "BDG-DRAFT-006",
+      "stable_name": "시간 발견자",
+      "visual_id": "BADGE_VISUAL_DRAFT_006",
+      "motif": "시계 틈에서 솟는 새싹",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 7,
+      "source_draft_id": "BDG-DRAFT-007",
+      "stable_name": "없던시간 뿅",
+      "visual_id": "BADGE_VISUAL_DRAFT_007",
+      "motif": "시계 모자를 쓴 마술 토끼",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 8,
+      "source_draft_id": "BDG-DRAFT-008",
+      "stable_name": "하나 더!",
+      "visual_id": "BADGE_VISUAL_DRAFT_008",
+      "motif": "한 장 더 펼쳐지는 지도",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 9,
+      "source_draft_id": "BDG-DRAFT-009",
+      "stable_name": "몰래 시작",
+      "visual_id": "BADGE_VISUAL_DRAFT_009",
+      "motif": "발자국 뒤에 숨은 작은 깃발",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 10,
+      "source_draft_id": "BDG-DRAFT-010",
+      "stable_name": "말하기 전에 GO",
+      "visual_id": "BADGE_VISUAL_DRAFT_010",
+      "motif": "출발선 위의 가벼운 운동화",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 11,
+      "source_draft_id": "BDG-DRAFT-011",
+      "stable_name": "내가 고를래",
+      "visual_id": "BADGE_VISUAL_DRAFT_011",
+      "motif": "고르는 손과 세 갈래 오솔길",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 12,
+      "source_draft_id": "BDG-DRAFT-012",
+      "stable_name": "작전 짜기",
+      "visual_id": "BADGE_VISUAL_DRAFT_012",
+      "motif": "접이식 작전지도와 연필",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 13,
+      "source_draft_id": "BDG-DRAFT-013",
+      "stable_name": "딱 하나 집중",
+      "visual_id": "BADGE_VISUAL_DRAFT_013",
+      "motif": "한 칸에 모인 스포트라이트",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 14,
+      "source_draft_id": "BDG-DRAFT-014",
+      "stable_name": "번개 완료",
+      "visual_id": "BADGE_VISUAL_DRAFT_014",
+      "motif": "번개와 체크 표시가 든 구름",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 15,
+      "source_draft_id": "BDG-DRAFT-015",
+      "stable_name": "천천히 정확히",
+      "visual_id": "BADGE_VISUAL_DRAFT_015",
+      "motif": "거북이와 정교한 작은 자",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 16,
+      "source_draft_id": "BDG-DRAFT-016",
+      "stable_name": "한칸씩",
+      "visual_id": "BADGE_VISUAL_DRAFT_016",
+      "motif": "나란히 놓인 징검다리",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 17,
+      "source_draft_id": "BDG-DRAFT-017",
+      "stable_name": "결국 해냈다",
+      "visual_id": "BADGE_VISUAL_DRAFT_017",
+      "motif": "구불길 끝의 승리 깃발",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 18,
+      "source_draft_id": "BDG-DRAFT-018",
+      "stable_name": "집중 불꽃",
+      "visual_id": "BADGE_VISUAL_DRAFT_018",
+      "motif": "유리병 속 작은 불꽃",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 20,
+      "source_draft_id": "BDG-DRAFT-020",
+      "stable_name": "흐름 탔다!",
+      "visual_id": "BADGE_VISUAL_DRAFT_020",
+      "motif": "종이배가 흐르는 리본 물길",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 21,
+      "source_draft_id": "BDG-DRAFT-021",
+      "stable_name": "다시 왔어",
+      "visual_id": "BADGE_VISUAL_DRAFT_021",
+      "motif": "되돌아온 발자국 두 쌍",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 25,
+      "source_draft_id": "BDG-DRAFT-025",
+      "stable_name": "도움 신호",
+      "visual_id": "BADGE_VISUAL_DRAFT_025",
+      "motif": "작은 무전기와 손전등",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 28,
+      "source_draft_id": "BDG-DRAFT-028",
+      "stable_name": "고쳐서 완성",
+      "visual_id": "BADGE_VISUAL_DRAFT_028",
+      "motif": "기워진 지도와 반짝이는 실",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 33,
+      "source_draft_id": "BDG-DRAFT-033",
+      "stable_name": "잠깐만…",
+      "visual_id": "BADGE_VISUAL_DRAFT_033",
+      "motif": "잠깐 멈춘 모래시계와 돋보기",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 34,
+      "source_draft_id": "BDG-DRAFT-034",
+      "stable_name": "두번 봤다",
+      "visual_id": "BADGE_VISUAL_DRAFT_034",
+      "motif": "겹쳐진 안경 두 개와 작은 별",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 40,
+      "source_draft_id": "BDG-DRAFT-040",
+      "stable_name": "오늘은 여기까지",
+      "visual_id": "BADGE_VISUAL_DRAFT_040",
+      "motif": "안전하게 접힌 캠프 지도",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 42,
+      "source_draft_id": "BDG-DRAFT-042",
+      "stable_name": "시간 어디갔지?",
+      "visual_id": "BADGE_VISUAL_DRAFT_042",
+      "motif": "숨바꼭질하는 시계",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 43,
+      "source_draft_id": "BDG-DRAFT-043",
+      "stable_name": "쉬고 다시",
+      "visual_id": "BADGE_VISUAL_DRAFT_043",
+      "motif": "해먹과 다시 펼친 지도",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 44,
+      "source_draft_id": "BDG-DRAFT-044",
+      "stable_name": "5분 지킴이",
+      "visual_id": "BADGE_VISUAL_DRAFT_044",
+      "motif": "다섯 잎 나뭇잎 시계",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 46,
+      "source_draft_id": "BDG-DRAFT-046",
+      "stable_name": "책상 재등장",
+      "visual_id": "BADGE_VISUAL_DRAFT_046",
+      "motif": "먼지 털고 돌아온 미니 책상",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 53,
+      "source_draft_id": "BDG-DRAFT-053",
+      "stable_name": "설명해볼게",
+      "visual_id": "BADGE_VISUAL_DRAFT_053",
+      "motif": "말풍선이 펼치는 지도",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 55,
+      "source_draft_id": "BDG-DRAFT-055",
+      "stable_name": "깜짝 추가탐험",
+      "visual_id": "BADGE_VISUAL_DRAFT_055",
+      "motif": "지도 옆 작은 팝업 깃발",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 58,
+      "source_draft_id": "BDG-DRAFT-058",
+      "stable_name": "충전하고 왔어",
+      "visual_id": "BADGE_VISUAL_DRAFT_058",
+      "motif": "햇볕 충전 배낭과 휴식 벤치",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    },
+    {
+      "slot": 60,
+      "source_draft_id": "BDG-DRAFT-060",
+      "stable_name": "오늘 좀 특별한데?",
+      "visual_id": "BADGE_VISUAL_DRAFT_060",
+      "motif": "색다른 별자리를 품은 탐험 훈장",
+      "source_asset_status": "UNBOUND_NOT_APPROVED",
+      "production_state": "REWORK_REQUIRED",
+      "final_approval": false
+    }
+  ]
+}

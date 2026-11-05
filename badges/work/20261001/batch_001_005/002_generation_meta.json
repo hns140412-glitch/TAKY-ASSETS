@@ -1,0 +1,13 @@
+{
+  "slot": "002",
+  "display_item": "알람보다 한발 먼저",
+  "core_detail": "첫 출발 신호를 스스로 보냈다.",
+  "motif": "닭 대신 나팔 부는 종달새",
+  "model": "gpt-image-1",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "sha256": "00f598488830dc30d59eed129e86cc0a4c457998d871c8e640024416b3488f1b",
+  "prompt": "Create ONE standalone TAKY exploration badge master candidate per request. High-density pastel hand-drawn illustration, circular badge composition, cute but not childish, collectible/premium, transparent outside the circular composition. No title, no caption, no letters, no numbers, no UI text. Do not bake in acquisition state, lock, stars, tier, profile character, Crew logo, national flag, or unrelated character. The subject must communicate the exact core detail and wit at 64px. Background supports meaning only; no generic sunrise/mountain/cloud/island scenery unless explicitly required. Keep future BASE/BG/SUBJECT/FX separation feasible.\nBADGE 002 current display item: 알람보다 한발 먼저\nCore detail: 첫 출발 신호를 스스로 보냈다.\nAuthority motif: 닭 대신 나팔 부는 종달새\nExact production scene: No sunrise, no sun disk, no horizon, no mountains, no clouds, no landscape scene. Use only a minimal soft cool-to-warm dawn atmosphere inside the circular badge. Center one small skylark clearly blowing a small trumpet as the self-made start signal. Bird + trumpet must occupy most of the badge and remain legible at 64px. Add only 2-3 short sound arcs from the trumpet. No rooster and no alarm clock. The visual joke is that the rooster is off duty and the skylark has taken the shift; communicate this only through the unexpected bird-with-trumpet action, not extra characters.\nGenerate only ONE standalone badge artwork, centered. No contact sheet, no multiple options.\nDo not render the Korean display item or any text.",
+  "status": "CANDIDATE_NOT_APPROVED"
+}

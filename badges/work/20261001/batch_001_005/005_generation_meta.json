@@ -1,0 +1,13 @@
+{
+  "slot": "005",
+  "display_item": "신발끈은 이미 출발했다",
+  "core_detail": "준비를 마치고 내 속도로 출발.",
+  "motif": "묶인 신발끈과 작은 나침반",
+  "model": "gpt-image-1",
+  "size": "1024x1024",
+  "quality": "high",
+  "background": "transparent",
+  "sha256": "333d8685546785c55282b349cce4c9ee4095b3aed391bf0cfa90ffde77cda7e2",
+  "prompt": "Create ONE standalone TAKY exploration badge master candidate per request. High-density pastel hand-drawn illustration, circular badge composition, cute but not childish, collectible/premium, transparent outside the circular composition. No title, no caption, no letters, no numbers, no UI text. Do not bake in acquisition state, lock, stars, tier, profile character, Crew logo, national flag, or unrelated character. The subject must communicate the exact core detail and wit at 64px. Background supports meaning only; no generic sunrise/mountain/cloud/island scenery unless explicitly required. Keep future BASE/BG/SUBJECT/FX separation feasible.\nBADGE 005 current display item: 신발끈은 이미 출발했다\nCore detail: 준비를 마치고 내 속도로 출발.\nAuthority motif: 묶인 신발끈과 작은 나침반\nExact production scene: Do not make the whole shoe or landscape the focus. Show a beautifully tied shoelace knot large and clear, angled as if it is already leaning forward to leave; attach a small precise compass to the lace as a secondary cue. The joke is that the shoelace is already ready before the 마음 catches up, expressed only through pose/direction, not a face. Pastel moss and sky tones. Avoid duplicate compass decoration in the base.\nGenerate only ONE standalone badge artwork, centered. No contact sheet, no multiple options.\nDo not render the Korean display item or any text.",
+  "status": "CANDIDATE_NOT_APPROVED"
+}
