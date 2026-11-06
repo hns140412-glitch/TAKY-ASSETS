@@ -1,0 +1,66 @@
+{
+  "schema": "TAKY_APPROVED_LEARNING_ENVIRONMENTS_MANIFEST_V1",
+  "date": "2026-09-30",
+  "status": "STAGED_BINARY_COMMIT_READBACK_VERIFIED_NOT_MAIN_NOT_APP_RUNTIME",
+  "governing_rule": "TKY-ASSET-001",
+  "approval_evidence": "ChatGPT Library /TAKY/LEARNING_APP_FAMILY_VISUAL_BINDINGS/registry.visual-ids.json; approval recorded there, not newly inferred from this file",
+  "reference_asset": {
+    "asset_id": "TAKY-LAF-UI-HOME-SNAP-HIDE-20260927-A",
+    "sha256": "6cd65b6d82f3306bab6fa93064780c96a3e4849484a8cc8add1926108a6db6f2",
+    "usage": "comparison/reference only; not runtime scene"
+  },
+  "assets": [
+    {
+      "visual_id": "TAKY-LAF-HIDE-HOME-MOSSFALL-20260927-A",
+      "app": "Hide & Seek",
+      "asset_role": "BACKGROUND_ENVIRONMENT_WITHOUT_EMBEDDED_UI_OR_CHARACTERS",
+      "path": "approved/learning-app-family/hide-seek/home/TAKY-LAF-HIDE-HOME-MOSSFALL-20260927-A/source/hide_seek_forest_asset.png",
+      "sha256": "1f7aa500a177e25820649cc485355297cbc4fb89909df1f7f43e4ff7ddbe2419",
+      "git_blob_sha1": "68458a8ff21b5ccd55529b604d478a2b6cb07264",
+      "bytes": 3137077,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "media_type": "image/png",
+      "source_library_path": "/TAKY/LEARNING_APP_FAMILY_VISUAL_BINDINGS/assets/hide_seek_forest_asset.png",
+      "approval_state": "USER_APPROVED_RECORDED_IN_EXISTING_VISUAL_REGISTRY"
+    },
+    {
+      "visual_id": "TAKY-LAF-SNAP-HOME-COAST-20260927-A",
+      "app": "Snap & Pop",
+      "asset_role": "BACKGROUND_ENVIRONMENT_WITHOUT_EMBEDDED_UI_OR_CHARACTERS",
+      "path": "approved/learning-app-family/snap-pop/home/TAKY-LAF-SNAP-HOME-COAST-20260927-A/source/snap_pop_beach_asset.png",
+      "sha256": "f15af01680e2db44ef8af1dff749169f1082ddd15b3760a96da7ff2211eb8259",
+      "git_blob_sha1": "7c2b83ae566ebc5468d42e0720f9092e096360ae",
+      "bytes": 2287028,
+      "dimensions": [
+        941,
+        1672
+      ],
+      "media_type": "image/png",
+      "source_library_path": "/TAKY/LEARNING_APP_FAMILY_VISUAL_BINDINGS/assets/snap_pop_beach_asset.png",
+      "approval_state": "USER_APPROVED_RECORDED_IN_EXISTING_VISUAL_REGISTRY"
+    }
+  ],
+  "conditions": [
+    "No child/portrait source included",
+    "Do not crop comparison board into runtime",
+    "Visual ID and background binary immutable absent explicit revision approval",
+    "Downstream app uses integrity-pinned derivative only; no app main modified",
+    "No full UI/render/interaction/deployment claim from this manifest"
+  ],
+  "verification": {
+    "source_sha256_and_git_blob_id_independently_compared": true,
+    "git_branch_staged_binary_committed": true,
+    "remote_commit_tree_readback": true,
+    "app_runtime_binding_verified": false,
+    "producer_gate_verified": false,
+    "fresh_clone_binary_sha256_readback": true,
+    "independent_original_vs_staged_blob_sha1_match": true
+  },
+  "current_promoted": false,
+  "release_approved": false,
+  "stage_branch": "stage/approved-learning-environments-2026-09-30",
+  "stage_binary_commit": "0a54c6004225a1917a5ef6d877acd725644e0f13"
+}
