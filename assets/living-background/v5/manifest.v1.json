@@ -1,0 +1,48 @@
+{
+  "schema": "tky.living-background.v5.app-binding.v1",
+  "rule_id": "TKY-ASSET-001",
+  "source_masters": [
+    {
+      "app": "Snap & Pop",
+      "visual_id": "TAKY-LAF-SNAP-HOME-COAST-20260927-A",
+      "sha256": "f15af01680e2db44ef8af1dff749169f1082ddd15b3760a96da7ff2211eb8259",
+      "consumer_pr": 10,
+      "effects_enabled": [
+        "procedural coast-normal foam approach/recede",
+        "subtle water-light drift"
+      ],
+      "effects_hold": [
+        "source-derived canopy sway until clean-plate visual QA",
+        "independent cloud translation"
+      ]
+    },
+    {
+      "app": "Hide & Seek",
+      "visual_id": "TAKY-LAF-HIDE-HOME-MOSSFALL-20260927-A",
+      "sha256": "1f7aa500a177e25820649cc485355297cbc4fb89909df1f7f43e4ff7ddbe2419",
+      "consumer_pr": 22,
+      "effects_enabled": [
+        "low-intensity light shafts",
+        "stationary waterfall with internal downward light motion",
+        "quiet pool ripple"
+      ],
+      "effects_hold": [
+        "tree/canopy silhouette sway until matte-repair visual QA"
+      ]
+    }
+  ],
+  "invariants": [
+    "approved master binaries remain immutable",
+    "effects are separate pointer-events-none layers",
+    "no copied moving raster over unchanged identical source silhouette",
+    "reduced-motion disables living FX",
+    "whole-island map is not substituted into regional app background"
+  ],
+  "status": {
+    "app_binding": "DRAFT_CODED",
+    "browser_ci": "IN_PROGRESS_OR_PARTIAL_PASS",
+    "device": "OPEN",
+    "main_merge": "HOLD",
+    "netlify": "HOLD"
+  }
+}
